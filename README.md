@@ -7,7 +7,7 @@ Utilize com imagens do Universal Blue (Bazzite, Bluefin ou Aurora). Downloads em
 **Informações**:
 - Os aplicativos estão ordenados por categoria e ordem alfabética.
 - Certifique-se de excluir ou comentar o que não for necessário.
-- Uso: execute $ brew bundle --file [caminho_do_arquivo]
+- Uso: execute $ brew bundle --file [caminho para pedrohqb.Brewfile]
 - Documentação: https://docs.brew.sh/Manpage
 
 **Nota para advogados**:
