@@ -65,6 +65,7 @@ flatpak "org.libreoffice.LibreOffice" # Suíte de escritório completa (alternat
 # Rede
 flatpak "com.brave.Browser" # Navegador web focado em privacidade e bloqueio de anúncios
 flatpak "com.microsoft.Edge" # Navegador da Microsoft baseado em Chromium
+flatpak "org.mozilla.firefox" # Navegador web da Mozilla
 flatpak "org.qbittorrent.qBittorrent" # Cliente para download e compartilhamento de arquivos via BitTorrent
 
 # Utilitários
