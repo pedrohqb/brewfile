@@ -2,7 +2,7 @@
 Lista de pacotes recomendados para advocacia a serem instalados via Homebrew no Linux
 
 **Recomendação**:
-Utilize com imagens do Universal Blue (Bazzite, Bluefin ou Aurora). Downloads em https://universal-blue.org/
+Utilize com imagens do Universal Blue com Gnome (Bazzite e Bluefin). Downloads em https://universal-blue.org/
 
 **Informações**:
 - Os aplicativos estão ordenados por categoria e ordem alfabética.

@@ -2,7 +2,7 @@
 # Lista de pacotes recomendados para advocacia a serem instalados via Homebrew #
 #                                                                              #
 # RECOMENDAÇÃO:                                                                #
-# Utilize com imagens do Universal Blue (Bazzite, Bluefin ou Aurora).          #
+# Utilize com imagens do Universal Blue com Gnome (Bazzite e Bluefin).         #
 # Downloads em https://universal-blue.org/                                     #
 #                                                                              #
 # INFORMAÇÕES:                                                                 #
@@ -45,10 +45,12 @@ flatpak "us.zoom.Zoom" # Cliente para videoconferências e reuniões online
 flatpak "app.drey.Damask" # Utilitário para troca automática de papéis de parede via internet
 flatpak "be.alexandervanhee.gradia" # Ferramenta simples para edição e anotação em capturas de tela
 flatpak "info.bibletime.BibleTime" # Software para estudo e leitura das Sagradas Escrituras
+flatpak "io.gitlab.adhami3310.Impression" # Utilitário para criação de drives USB inicializáveis (flashing ISOs)
 flatpak "org.gnome.Brasero" # Aplicativo para gravação de CDs, DVDs e Blu-rays
 
 # Multimídia
 flatpak "app.ytmdesktop.ytmdesktop" # Cliente desktop para o YouTube Music
+flatpak "com.github.PintaProject.Pinta" # Editor de imagens simples e intuitivo (alternativa ao Paint.NET)
 flatpak "com.obsproject.Studio" # Software profissional para gravação de tela e transmissões ao vivo
 flatpak "com.spotify.Client" # Cliente oficial para streaming de músicas e podcasts no Spotify
 flatpak "de.haeckerfelix.Shortwave" # Reprodutor moderno de estações de rádio digitais
@@ -65,10 +67,14 @@ flatpak "org.libreoffice.LibreOffice" # Suíte de escritório completa (alternat
 # Rede
 flatpak "com.brave.Browser" # Navegador web focado em privacidade e bloqueio de anúncios
 flatpak "com.microsoft.Edge" # Navegador da Microsoft baseado em Chromium
+flatpak "org.mozilla.firefox" # Navegador web da Mozilla
 flatpak "org.qbittorrent.qBittorrent" # Cliente para download e compartilhamento de arquivos via BitTorrent
 
 # Utilitários
+flatpak "com.github.tchx84.Flatseal" # Gerenciador de permissões e configurações para aplicativos Flatpak
+flatpak "com.ranfdev.DistroShelf" # Interface gráfica para gerenciar e lançar containers Distrobox
 flatpak "com.usebottles.bottles" # Gerenciador de ambientes para rodar softwares Windows (.exe) via Wine
+flatpak "io.github.flattool.Warehouse" # Gerenciador de Flatpaks para instalação, remoção e limpeza de dados
 flatpak "org.keepassxc.KeePassXC" # Gerenciador de senhas seguro e offline
 flatpak "org.virt_manager.virt-manager" # Interface gráfica para criação e gestão de máquinas virtuais
 flatpak "org.virt_manager.virt_manager.Extension.Qemu" # Emulador e suporte de virtualização para o virt-manager
