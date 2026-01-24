@@ -1,5 +1,5 @@
 ################################################################################
-# Lista de pacotes recomendados a serem instalados via Homebrew                #
+# Lista de pacotes recomendados a serem instalados via Homebrew no Gnome       #
 #                                                                              #
 # RECOMENDAÇÃO:                                                                #
 # Utilize com imagens do Universal Blue com Gnome (Bazzite e Bluefin).         #
