@@ -29,7 +29,6 @@ brew "tesseract-lang" # Motor de reconhecimento de texto (suporte de idiomas par
 brew "onedrive-cli" # Cliente de linha de comando para sincronização com Microsoft OneDrive
 brew "yt-dlp" # Utilitário para download de vídeos do YouTube e diversas plataformas
 
-
 # --- FLATPAK (Aplicativos Gráficos) ---
 
 # Comunicação
