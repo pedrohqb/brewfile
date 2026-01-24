@@ -12,3 +12,6 @@ Utilize com imagens do Universal Blue (Bazzite, Bluefin ou Aurora). Downloads em
 
 **Nota para advogados**:
 Recomendo instalar o distrobox-adv-br seguindo as instruções em https://github.com/pedrohqb/distrobox-adv-br
+
+**Listas existentes**:
+- gnome.Brewfile, com aplicativos recomendados para serem utilizados no ambiente desktop Gnome.
