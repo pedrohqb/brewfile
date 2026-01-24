@@ -30,7 +30,7 @@
 #flatpak "org.srb2.SRB2Kart" # Jogo de corrida de kart com personagens de Sonic e SEGA
 #flatpak "net.supertuxkart.SuperTuxKart" # Corrida de karts 3D com diversos mascotes do software livre
 
-# Emulação e Retro
+# Emulação e retro
 #flatpak "app.xemu.xemu" # Emulador do Xbox original focado em performance e compatibilidade
 #flatpak "com.snes9x.Snes9x" # Emulador clássico de Super Nintendo
 #flatpak "com.supermodel3.Supermodel" # Emulador da placa arcade Sega Model 3
