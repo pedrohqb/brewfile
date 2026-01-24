@@ -1,5 +1,5 @@
 # brewfile
-Lista de pacotes recomendados para advocacia a serem instalados via Homebrew no Linux
+Lista de pacotes recomendados a serem instalados via Homebrew no Linux
 
 **Recomendação**:
 Utilize com imagens do Universal Blue com Gnome (Bazzite e Bluefin). Downloads em https://universal-blue.org/
