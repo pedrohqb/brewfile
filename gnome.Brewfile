@@ -1,5 +1,5 @@
 ################################################################################
-# Lista de pacotes recomendados para advocacia a serem instalados via Homebrew #
+# Lista de pacotes recomendados a serem instalados via Homebrew no Gnome       #
 #                                                                              #
 # RECOMENDAÇÃO:                                                                #
 # Utilize com imagens do Universal Blue com Gnome (Bazzite e Bluefin).         #
@@ -8,7 +8,7 @@
 # INFORMAÇÕES:                                                                 #
 # - Os aplicativos estão ordenados por categoria e ordem alfabética.           #
 # - Certifique-se de excluir ou comentar o que não for necessário.             #
-# - Uso: execute $ brew bundle --file [caminho para pedrohqb.Brewfile]         #
+# - Uso: execute $ brew bundle --file [caminho para gnome.Brewfile]            #
 # - Documentação: https://docs.brew.sh/Manpage                                 #
 #                                                                              #
 # NOTA PARA ADVOGADOS:                                                         #
