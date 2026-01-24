@@ -72,9 +72,11 @@ flatpak "org.qbittorrent.qBittorrent" # Cliente para download e compartilhamento
 
 # Utilitários
 flatpak "com.github.tchx84.Flatseal" # Gerenciador de permissões e configurações para aplicativos Flatpak
+flatpak "com.mattjakeman.ExtensionManager" # Utilitário para buscar, instalar e gerenciar extensões do GNOME Shell sem usar o navegador
 flatpak "com.ranfdev.DistroShelf" # Interface gráfica para gerenciar e lançar containers Distrobox
 flatpak "com.usebottles.bottles" # Gerenciador de ambientes para rodar softwares Windows (.exe) via Wine
 flatpak "io.github.flattool.Warehouse" # Gerenciador de Flatpaks para instalação, remoção e limpeza de dados
+flatpak "io.missioncenter.MissionCenter" # Monitor de sistema moderno para acompanhar CPU, GPU, RAM e rede
 flatpak "org.keepassxc.KeePassXC" # Gerenciador de senhas seguro e offline
 flatpak "org.virt_manager.virt-manager" # Interface gráfica para criação e gestão de máquinas virtuais
 flatpak "org.virt_manager.virt_manager.Extension.Qemu" # Emulador e suporte de virtualização para o virt-manager
