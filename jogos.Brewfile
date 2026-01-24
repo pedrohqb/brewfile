@@ -15,6 +15,7 @@
 
 # Ação e tiro
 #flatpak "com.etlegacy.ETLegacy" # FPS baseado no clássico Wolfenstein: Enemy Territory
+#flatpak "com.github._0negal.Viper" # Launcher focado na comunidade de Titanfall 2 (Northstar)
 #flatpak "com.realm667.Wolfenstein_Blade_of_Agony" # Jogo de tiro inspirado em shooters dos anos 90 com temática de guerra
 #flatpak "net.sourceforge.chromium-bsu" # Jogo de tiro espacial (shoot 'em up) estilo arcade
 #flatpak "com.teeworlds.Teeworlds" # Jogo de tiro em arena 2D multiplayer com ganchos e física rápida
@@ -52,34 +53,34 @@
 
 # Gerenciadores e plataformas de jogos
 #flatpak "com.fightcade.Fightcade" # Plataforma para jogos de luta retrô com netcode de alta performance (rollback)
-#flatpak "com.github._0negal.Viper" # Launcher focado na comunidade de Titanfall 2 (Northstar)
 flatpak "com.heroicgameslauncher.hgl" # Cliente para gerenciar bibliotecas da Epic Games, GOG e Amazon
-#flatpak "dev.goats.xivlauncher" # Launcher customizado para Final Fantasy XIV com suporte a plugins
 #flatpak "io.github.Faugus.faugus-launcher" # Launcher minimalista e rápido para diversos títulos
 #flatpak "io.itch.itch" # Plataforma para baixar e atualizar jogos independentes
-#flatpak "io.mrarm.mcpelauncher" # Launcher para rodar a versão Bedrock do Minecraft no Linux
 flatpak "net.lutris.Lutris" # Plataforma universal que preserva e organiza jogos de diversas fontes (Wine, GOG, etc.)
-#flatpak "org.prismlauncher.PrismLauncher" # Gerenciador de instâncias do Minecraft focado em mods e performance
 #flatpak "page.kramo.Cartridges" # Biblioteca de jogos simples que organiza títulos de diversas plataformas
 flatpak "com.valvesoftware.Steam" # Principal loja e plataforma de distribuição digital de jogos para PC
 
 # Plataforma e arcade
-#flatpak "io.github.doukutsu_rs.doukutsu-rs" # Reimplementação do clássico Cave Story em Rust
 #flatpak "com.github.k4zmu2a.spacecadetpinball" # Reimplementação do clássico pinball do Windows 95/XP
 #flatpak "com.pokemmo.PokeMMO" # MMO focado em integrar diferentes regiões e gerações de Pokémon
+#flatpak "io.github.doukutsu_rs.doukutsu-rs" # Reimplementação do clássico Cave Story em Rust
+#flatpak "io.mrarm.mcpelauncher" # Launcher para rodar a versão Bedrock do Minecraft no Linux
 #flatpak "net.hhoney.rota" # Jogo de quebra-cabeça e plataforma com mecânicas de gravidade
 #flatpak "net.stabyourself.nottetris2" # Versão de Tetris que utiliza física real nas peças
 #flatpak "org.hedgewars.Hedgewars" # Estratégia de artilharia por turnos com ouriços (estilo Worms)
 #flatpak "org.neverball.Neverball" # Jogo de equilíbrio onde você inclina o cenário para guiar uma bola
+#flatpak "org.prismlauncher.PrismLauncher" # Gerenciador de instâncias do Minecraft focado em mods e performance
 #flatpak "org.srb2.SRB2" # Jogo de plataforma 3D do Sonic construído sobre uma versão modificada do Doom
 #flatpak "org.supertuxproject.SuperTux" # Jogo de plataforma 2D inspirado na série clássica Super Mario
 #flatpak "org.tuxfamily.XMoto" # Jogo de plataforma de motocross 2D onde a física é o principal desafio
+#flatpak "org.vinegarhq.Sober" # Runtime específico para rodar o Roblox no Linux de forma otimizada
 #flatpak "sh.ppy.osu" # Jogo de ritmo baseado em clicar em círculos e seguir a música
 
 # Simulação e estratégia
 #flatpak "at.vintagestory.VintageStory" # Jogo de sobrevivência e sandbox com foco em realismo e mecânicas de era
 #flatpak "com.github.keriew.augustus" # Engine moderna e aprimorada para rodar o clássico Caesar III
 #flatpak "com.github.sakya.corechess" # Interface simples e moderna para jogar xadrez contra o computador ou humanos
+#flatpak "dev.goats.xivlauncher" # Launcher customizado para Final Fantasy XIV com suporte a plugins
 #flatpak "io.github.endless_sky.endless_sky" # Simulador de exploração, comércio e combate espacial em 2D
 #flatpak "io.openrct2.OpenRCT2" # Reimplementação de código aberto do RollerCoaster Tycoon 2
 #flatpak "net.openra.OpenRA" # Engine para jogos de estratégia em tempo real clássicos como Red Alert e Dune 2000
@@ -87,6 +88,5 @@ flatpak "com.valvesoftware.Steam" # Principal loja e plataforma de distribuiçã
 #flatpak "org.endlessaccess.threadbare" # RPG tático em desenvolvimento com foco em narrativa
 #flatpak "org.openmw.OpenMW" # Engine de código aberto moderna para rodar o RPG Morrowind
 
-# Utilitários de jogo
+# Utilitários
 flatpak "com.vysp3r.ProtonPlus" # Gerenciador simples para baixar e atualizar versões do Proton, Wine e GE-Proton
-#flatpak "org.vinegarhq.Sober" # Runtime específico para rodar o Roblox no Linux de forma otimizada
