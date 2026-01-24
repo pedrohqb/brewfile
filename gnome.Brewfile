@@ -8,7 +8,7 @@
 # INFORMAÇÕES:                                                                 #
 # - Os aplicativos estão ordenados por categoria e ordem alfabética.           #
 # - Certifique-se de excluir ou comentar o que não for necessário.             #
-# - Uso: execute $ brew bundle --file [caminho para pedrohqb.Brewfile]         #
+# - Uso: execute $ brew bundle --file [caminho para gnome.Brewfile]            #
 # - Documentação: https://docs.brew.sh/Manpage                                 #
 #                                                                              #
 # NOTA PARA ADVOGADOS:                                                         #
