@@ -28,6 +28,7 @@ brew "yt-dlp" # Utilitário para download de vídeos do YouTube e diversas plata
 brew "graphicsmagick" # Ferramenta robusta para processamento e manipulação de imagens
 brew "ocrmypdf" # Adiciona camada de texto pesquisável (OCR) em arquivos PDF
 brew "tesseract-lang" # Motor de reconhecimento de texto (suporte de idiomas para o OCR)
+brew "rmlint" # Utilitário para remover arquivos duplicados
 
 # --- FLATPAK (Aplicativos Gráficos) ---
 
