@@ -83,6 +83,7 @@ flatpak "com.github.tchx84.Flatseal" # Gerenciador de permissões e configuraç�
 flatpak "com.mattjakeman.ExtensionManager" # Utilitário para gerenciar extensões do GNOME Shell
 flatpak "io.github.flattool.Warehouse" # Gerenciador de Flatpaks (instalação, remoção e limpeza)
 flatpak "io.missioncenter.MissionCenter" # Monitor de sistema moderno (CPU, GPU, RAM e rede)
+flatpak "it.mijorus.gearlever" # Gerenciador de AppImages
 
 # Virtualização e Containers
 flatpak "com.ranfdev.DistroShelf" # Interface gráfica para gerenciar containers Distrobox
