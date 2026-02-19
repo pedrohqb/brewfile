@@ -80,6 +80,7 @@ flatpak "de.haeckerfelix.Shortwave" # Reprodutor moderno de estações de rádio
 flatpak "org.keepassxc.KeePassXC" # Gerenciador de senhas seguro e offline
 
 # Sistema e Manutenção
+flatpak "ca.desrt.dconf-editor" # Editor de base de dados de configurações dconf
 flatpak "com.github.tchx84.Flatseal" # Gerenciador de permissões e configurações para aplicativos Flatpak
 flatpak "com.mattjakeman.ExtensionManager" # Utilitário para gerenciar extensões do GNOME Shell
 flatpak "io.github.flattool.Warehouse" # Gerenciador de Flatpaks (instalação, remoção e limpeza)
