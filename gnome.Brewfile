@@ -35,6 +35,7 @@ brew "tesseract-lang" # Motor de reconhecimento de texto (suporte de idiomas par
 
 # Áudio e Vídeo
 flatpak "com.obsproject.Studio" # Software profissional para gravação de tela e transmissões ao vivo
+flatpak "ink.whis.Whis" # Transcreve áudio por meio de inteligência artificial
 flatpak "org.audacityteam.Audacity" # Editor e gravador de áudio multi-pista
 flatpak "org.kde.kdenlive" # Editor de vídeos profissional de código aberto
 
