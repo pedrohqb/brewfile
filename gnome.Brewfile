@@ -27,12 +27,15 @@ brew "yt-dlp" # Utilitário para download de vídeos do YouTube e diversas plata
 # Utilidades e OCR
 brew "graphicsmagick" # Ferramenta robusta para processamento e manipulação de imagens
 brew "ocrmypdf" # Adiciona camada de texto pesquisável (OCR) em arquivos PDF
+brew "pdfgrep" # Utilitário para pesquisa ao modo "grep" em pdfs
+brew "rdfind" # Utilitário para detectar arquivos duplicados
 brew "tesseract-lang" # Motor de reconhecimento de texto (suporte de idiomas para o OCR)
 
 # --- FLATPAK (Aplicativos Gráficos) ---
 
 # Áudio e Vídeo
 flatpak "com.obsproject.Studio" # Software profissional para gravação de tela e transmissões ao vivo
+flatpak "ink.whis.Whis" # Transcreve áudio por meio de inteligência artificial
 flatpak "org.audacityteam.Audacity" # Editor e gravador de áudio multi-pista
 flatpak "org.kde.kdenlive" # Editor de vídeos profissional de código aberto
 
@@ -79,10 +82,12 @@ flatpak "de.haeckerfelix.Shortwave" # Reprodutor moderno de estações de rádio
 flatpak "org.keepassxc.KeePassXC" # Gerenciador de senhas seguro e offline
 
 # Sistema e Manutenção
+flatpak "ca.desrt.dconf-editor" # Editor de base de dados de configurações dconf
 flatpak "com.github.tchx84.Flatseal" # Gerenciador de permissões e configurações para aplicativos Flatpak
 flatpak "com.mattjakeman.ExtensionManager" # Utilitário para gerenciar extensões do GNOME Shell
 flatpak "io.github.flattool.Warehouse" # Gerenciador de Flatpaks (instalação, remoção e limpeza)
 flatpak "io.missioncenter.MissionCenter" # Monitor de sistema moderno (CPU, GPU, RAM e rede)
+flatpak "it.mijorus.gearlever" # Gerenciador de AppImages
 
 # Virtualização e Containers
 flatpak "com.ranfdev.DistroShelf" # Interface gráfica para gerenciar containers Distrobox
