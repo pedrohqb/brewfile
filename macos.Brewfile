@@ -7,8 +7,14 @@
 # - Uso: execute $ brew bundle --file [caminho para macos.Brewfile]            #
 # - Documentação: https://docs.brew.sh/Manpage                                 #
 #                                                                              #
-# Licença: CC0-1.0. Pedro Henrique Quitete Barreto 2026                        #
+# Licença: CC0-1.0.                                                            #
+# Pedro Henrique Quitete Barreto 2026                                          #
 ################################################################################
+
+# --- TAPS (Repositórios Adicionais) ---
+tap "homebrew/bundle"
+tap "homebrew/services"
+tap "homebrew/cask"
 
 # --- BREW (Ferramentas de Linha de Comando) ---
 
