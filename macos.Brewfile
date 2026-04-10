@@ -11,11 +11,6 @@
 # Pedro Henrique Quitete Barreto 2026                                          #
 ################################################################################
 
-# --- TAPS (Repositórios Adicionais) ---
-tap "homebrew/bundle"
-tap "homebrew/services"
-tap "homebrew/cask"
-
 # --- BREW (Ferramentas de Linha de Comando) ---
 
 # Redes e Downloads
