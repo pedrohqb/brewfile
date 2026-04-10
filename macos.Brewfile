@@ -28,7 +28,6 @@ brew "tesseract-lang" # Motor de reconhecimento de texto (suporte de idiomas par
 cask "audacity"               # Editor e gravador de áudio multi-pista
 cask "kdenlive"               # Editor de vídeos profissional de código aberto
 cask "obs"                    # Software profissional para gravação de tela e transmissões ao vivo
-cask "whisper"                # Transcreve áudio por meio de inteligência artificial
 
 # Comunicação
 cask "discord"                # Cliente oficial de comunicação para comunidades e chats
