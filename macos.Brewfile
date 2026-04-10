@@ -63,9 +63,6 @@ cask "microsoft-edge"         # Navegador da Microsoft baseado em Chromium
 cask "onedrive"               # Cliente de sincronização de arquivos em nuvem da Microsoft
 cask "qbittorrent"            # Cliente para download e compartilhamento de arquivos via BitTorrent
 
-# Leitura e Estudo
-cask "bibletime"              # Software para estudo e leitura das Sagradas Escrituras
-
 # Música e Streaming
 cask "shortwave"              # Reprodutor moderno de estações de rádio digitais
 cask "spotify"                # Cliente oficial para streaming de músicas e podcasts no Spotify
