@@ -60,7 +60,6 @@ cask "onedrive"                     # Cliente de sincronização de arquivos em 
 cask "qbittorrent"                  # Cliente para download e compartilhamento de arquivos via BitTorrent
 
 # Música e Streaming
-cask "shortwave"                    # Reprodutor moderno de estações de rádio digitais
 cask "spotify"                      # Cliente oficial para streaming de músicas e podcasts no Spotify
 
 # Segurança e Senhas
