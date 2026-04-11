@@ -47,6 +47,7 @@ cask "pinta"                  # Editor de imagens simples e intuitivo
 # Escritório e Produtividade
 cask "joplin"                 # Aplicativo de notas e tarefas com suporte a Markdown e sincronização
 cask "libreoffice"            # Suíte de escritório completa (alternativa ao Microsoft Office)
+cask "libreoffice-language-pack" # Suporte a outras línguas no LibreOffice
 cask "pdfsam-basic"           # Utilitário para mesclar, girar e organizar páginas de PDFs
 
 # Gerenciamento de Mídia Física
