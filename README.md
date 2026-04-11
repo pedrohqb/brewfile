@@ -1,7 +1,7 @@
 # brewfile
-Lista de pacotes recomendados a serem instalados via Homebrew no Linux
+Lista de pacotes recomendados a serem instalados via Homebrew no Linux e MacOS
 
-**Recomendação**:
+**Recomendação para Linux**:
 Utilize com imagens do Universal Blue (Bazzite, Bluefin ou Aurora). Downloads em https://universal-blue.org/
 
 **Informações**:
@@ -10,8 +10,9 @@ Utilize com imagens do Universal Blue (Bazzite, Bluefin ou Aurora). Downloads em
 - Uso: execute $ brew bundle --file [caminho para o Brewfile]
 - Documentação: https://docs.brew.sh/Manpage
 
-**Nota para advogados**:
+**Nota para advogados usuários de Linux**:
 Recomendo instalar o distrobox-adv-br seguindo as instruções em https://github.com/pedrohqb/distrobox-adv-br
 
 **Listas existentes**:
 - gnome.Brewfile, com aplicativos recomendados para serem utilizados no ambiente desktop Gnome.
+- macos.Brewfile, com aplicativos recomendados para serem utilizados no sistema operacional macOS.
