@@ -7,68 +7,67 @@
 # - Uso: execute $ brew bundle --file [caminho para macos.Brewfile]            #
 # - Documentação: https://docs.brew.sh/Manpage                                 #
 #                                                                              #
-# Licença: CC0-1.0.                                                            #
-# Pedro Henrique Quitete Barreto 2026                                          #
+# Licença: CC0-1.0. Pedro Henrique Quitete Barreto 2026                        #
 ################################################################################
 
 # --- BREW (Ferramentas de Linha de Comando) ---
 
 # Redes e Downloads
-brew "yt-dlp" # Utilitário para download de vídeos do YouTube e diversas plataformas
+brew "yt-dlp"                       # Utilitário para download de vídeos do YouTube e diversas plataformas
 
 # Utilidades e OCR
-brew "fastfetch" # Exibe informações sobre o sistema de forma visual e rápida
-brew "graphicsmagick" # Ferramenta robusta para processamento e manipulação de imagens
-brew "ocrmypdf" # Adiciona camada de texto pesquisável (OCR) em arquivos PDF
-brew "pdfgrep" # Utilitário para pesquisa ao modo "grep" em pdfs
-brew "rdfind" # Utilitário para detectar arquivos duplicados
-brew "tesseract-lang" # Motor de reconhecimento de texto (suporte de idiomas para o OCR)
+brew "fastfetch"                    # Exibe informações sobre o sistema de forma visual e rápida
+brew "graphicsmagick"               # Ferramenta robusta para processamento e manipulação de imagens
+brew "ocrmypdf"                     # Adiciona camada de texto pesquisável (OCR) em arquivos PDF
+brew "pdfgrep"                      # Utilitário para pesquisa ao modo "grep" em pdfs
+brew "rdfind"                       # Utilitário para detectar arquivos duplicados
+brew "tesseract-lang"               # Motor de reconhecimento de texto (suporte de idiomas para o OCR)
 
 # --- CASK (Aplicativos Gráficos) ---
 
 # Áudio e Vídeo
-cask "audacity"               # Editor e gravador de áudio multi-pista
-cask "kdenlive"               # Editor de vídeos profissional de código aberto
-cask "obs"                    # Software profissional para gravação de tela e transmissões ao vivo
+cask "audacity"                     # Editor e gravador de áudio multi-pista
+cask "kdenlive"                     # Editor de vídeos profissional de código aberto
+cask "obs"                          # Software profissional para gravação de tela e transmissões ao vivo
 
 # Comunicação
-cask "discord"                # Cliente oficial de comunicação para comunidades e chats
-cask "microsoft-outlook"      # Gerenciador de e-mails, contatos e calendário
-cask "microsoft-teams"        # Cliente oficial da Microsoft para Teams
-cask "signal"                 # Mensageiro focado em privacidade e segurança de dados
-cask "telegram"               # Cliente oficial de mensagens do Telegram
-cask "whatsapp"               # Cliente oficial desktop para WhatsApp
-cask "zoom"                   # Cliente para videoconferências e reuniões online
+cask "discord"                      # Cliente oficial de comunicação para comunidades e chats
+cask "microsoft-outlook"            # Gerenciador de e-mails, contatos e calendário
+cask "microsoft-teams"              # Cliente oficial da Microsoft para Teams
+cask "signal"                       # Mensageiro focado em privacidade e segurança de dados
+cask "telegram"                     # Cliente oficial de mensagens do Telegram
+cask "whatsapp"                     # Cliente oficial desktop para WhatsApp
+cask "zoom"                         # Cliente para videoconferências e reuniões online
 
 # Design e Fotografia
-cask "gimp"                   # Editor de imagens avançado
-cask "pinta"                  # Editor de imagens simples e intuitivo
+cask "gimp"                         # Editor de imagens avançado
+cask "pinta"                        # Editor de imagens simples e intuitivo
 
 # Escritório e Produtividade
-cask "joplin"                 # Aplicativo de notas e tarefas com suporte a Markdown e sincronização
-cask "libreoffice"            # Suíte de escritório completa (alternativa ao Microsoft Office)
-cask "libreoffice-language-pack" # Suporte a outras línguas no LibreOffice
-cask "pdfsam-basic"           # Utilitário para mesclar, girar e organizar páginas de PDFs
+cask "joplin"                       # Aplicativo de notas e tarefas com suporte a Markdown e sincronização
+cask "libreoffice"                  # Suíte de escritório completa (alternativa ao Microsoft Office)
+cask "libreoffice-language-pack"    # Suporte a outras línguas no LibreOffice
+cask "pdfsam-basic"                 # Utilitário para mesclar, girar e organizar páginas de PDFs
 
 # Gerenciamento de Mídia Física
-cask "balenaetcher"           # Utilitário para criação de drives USB inicializáveis
+cask "balenaetcher"                 # Utilitário para criação de drives USB inicializáveis
 
 # Internet e Navegação
-cask "brave-browser"          # Navegador web focado em privacidade e bloqueio de anúncios
-cask "firefox"                # Navegador web da Mozilla
-cask "microsoft-edge"         # Navegador da Microsoft baseado em Chromium
-cask "onedrive"               # Cliente de sincronização de arquivos em nuvem da Microsoft
-cask "qbittorrent"            # Cliente para download e compartilhamento de arquivos via BitTorrent
+cask "brave-browser"                # Navegador web focado em privacidade e bloqueio de anúncios
+cask "firefox"                      # Navegador web da Mozilla
+cask "microsoft-edge"               # Navegador da Microsoft baseado em Chromium
+cask "onedrive"                     # Cliente de sincronização de arquivos em nuvem da Microsoft
+cask "qbittorrent"                  # Cliente para download e compartilhamento de arquivos via BitTorrent
 
 # Música e Streaming
-cask "shortwave"              # Reprodutor moderno de estações de rádio digitais
-cask "spotify"                # Cliente oficial para streaming de músicas e podcasts no Spotify
+cask "shortwave"                    # Reprodutor moderno de estações de rádio digitais
+cask "spotify"                      # Cliente oficial para streaming de músicas e podcasts no Spotify
 
 # Segurança e Senhas
-cask "keepassxc"              # Gerenciador de senhas seguro e offline
+cask "keepassxc"                    # Gerenciador de senhas seguro e offline
 
 # Sistema e Manutenção
-cask "stats"                  # Monitor de sistema moderno para a barra de menus
+cask "stats"                        # Monitor de sistema moderno para a barra de menus
 
 # Virtualização e Containers
-cask "utm"                    # Interface gráfica para gestão de máquinas virtuais via QEMU
+cask "utm"                          # Interface gráfica para gestão de máquinas virtuais via QEMU
