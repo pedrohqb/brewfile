@@ -35,7 +35,7 @@ cask "discord"                # Cliente oficial de comunicação para comunidade
 cask "microsoft-teams"        # Cliente oficial da Microsoft para Teams
 cask "signal"                 # Mensageiro focado em privacidade e segurança de dados
 cask "telegram"               # Cliente oficial de mensagens do Telegram
-cask "thunderbird"            # Gerenciador de e-mails, contatos e calendário
+cask "microsoft-outlook"      # Gerenciador de e-mails, contatos e calendário
 cask "whatsapp"               # Cliente oficial desktop para WhatsApp
 cask "zoom"                   # Cliente para videoconferências e reuniões online
 
