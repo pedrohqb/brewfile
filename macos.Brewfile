@@ -17,6 +17,7 @@
 brew "yt-dlp" # Utilitário para download de vídeos do YouTube e diversas plataformas
 
 # Utilidades e OCR
+brew "fastfetch" # Exibe informações sobre o sistema de forma visual e rápida
 brew "graphicsmagick" # Ferramenta robusta para processamento e manipulação de imagens
 brew "ocrmypdf" # Adiciona camada de texto pesquisável (OCR) em arquivos PDF
 brew "pdfgrep" # Utilitário para pesquisa ao modo "grep" em pdfs
@@ -32,10 +33,10 @@ cask "obs"                    # Software profissional para gravação de tela e 
 
 # Comunicação
 cask "discord"                # Cliente oficial de comunicação para comunidades e chats
+cask "microsoft-outlook"      # Gerenciador de e-mails, contatos e calendário
 cask "microsoft-teams"        # Cliente oficial da Microsoft para Teams
 cask "signal"                 # Mensageiro focado em privacidade e segurança de dados
 cask "telegram"               # Cliente oficial de mensagens do Telegram
-cask "microsoft-outlook"      # Gerenciador de e-mails, contatos e calendário
 cask "whatsapp"               # Cliente oficial desktop para WhatsApp
 cask "zoom"                   # Cliente para videoconferências e reuniões online
 
