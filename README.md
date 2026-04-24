@@ -14,5 +14,5 @@ Utilize com imagens do Universal Blue (Bazzite, Bluefin ou Aurora). Downloads em
 Recomendo instalar o distrobox-adv-br seguindo as instruções em https://github.com/pedrohqb/distrobox-adv-br
 
 **Listas existentes**:
-- gnome.Brewfile, com aplicativos recomendados para serem utilizados no ambiente desktop Gnome.
+- gnome.Brewfile, com aplicativos recomendados para serem utilizados no sistema operacional Linux no ambiente desktop Gnome.
 - macos.Brewfile, com aplicativos recomendados para serem utilizados no sistema operacional macOS.
