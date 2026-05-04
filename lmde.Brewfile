@@ -1,21 +1,21 @@
-######################################################################################
-# Lista de pacotes recomendados a serem instalados via Homebrew no LMDE (Cinnamon)   #
-#                                                                                    #
-# INFORMAÇÕES:                                                                       #
-# - Os aplicativos estão ordenados por categoria e ordem alfabética.                 #
-# - Certifique-se de excluir ou comentar o que não for necessário.                   #
-# - Uso: execute $ brew bundle --file [caminho para lmde.Brewfile]                   #
-# - Documentação: https://docs.brew.sh/Manpage                                       #
-#                                                                                    #
-# - Antes de executar, é necessário instalar pacotes pelo seguinte comando:          #
-#   $ sudo apt install distrobox fonts-crosextra-carlito git libccid pcscd podman    #
-#                                                                                    #
-# NOTA PARA ADVOGADOS:                                                               #
-# Recomendo também instalar o distrobox-adv-br seguindo as instruções em             #
-# https://github.com/pedrohqb/distrobox-adv-br                                       #
-#                                                                                    #
-# Licença: CC0-1.0. Pedro Henrique Quitete Barreto 2026                              #
-######################################################################################
+#######################################################################################################
+# Lista de pacotes recomendados a serem instalados via Homebrew no LMDE (Cinnamon)                    #
+#                                                                                                     #
+# INFORMAÇÕES:                                                                                        #
+# - Os aplicativos estão ordenados por categoria e ordem alfabética.                                  #
+# - Certifique-se de excluir ou comentar o que não for necessário.                                    #
+# - Uso: execute $ brew bundle --file [caminho para lmde.Brewfile]                                    #
+# - Documentação: https://docs.brew.sh/Manpage                                                        #
+#                                                                                                     #
+# - Antes de executar o presente arquivo, é necessário instalar pacotes pelo seguinte comando:        #
+#   $ sudo apt install distrobox evolution-ews-core fonts-crosextra-carlito git libccid pcscd podman  #
+#                                                                                                     #
+# NOTA PARA ADVOGADOS:                                                                                #
+# Recomendo também instalar o distrobox-adv-br seguindo as instruções em                              #
+# https://github.com/pedrohqb/distrobox-adv-br                                                        #
+#                                                                                                     #
+# Licença: CC0-1.0. Pedro Henrique Quitete Barreto 2026                                               #
+#######################################################################################################
 
 # --- BREW (Ferramentas de Linha de Comando) ---
 
