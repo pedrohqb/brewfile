@@ -2,6 +2,7 @@
 Lista de pacotes recomendados a serem instalados via Homebrew no Linux e MacOS
 
 **Informações**:
+- Se for usuário de Linux e não utilizar alguma imagem do Universal Blue, instale o [Homebrew](https://brew.sh/).
 - Os aplicativos estão ordenados por categoria e ordem alfabética.
 - Certifique-se de excluir ou comentar o que não for necessário.
 - Uso: execute $ brew bundle --file [caminho para o Brewfile]
