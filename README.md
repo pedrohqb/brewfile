@@ -1,9 +1,6 @@
 # brewfile
 Lista de pacotes recomendados a serem instalados via Homebrew no Linux e MacOS
 
-**Recomendação para Linux**:
-Utilize com imagens do Universal Blue (Bazzite, Bluefin ou Aurora). Downloads em https://universal-blue.org/
-
 **Informações**:
 - Os aplicativos estão ordenados por categoria e ordem alfabética.
 - Certifique-se de excluir ou comentar o que não for necessário.
