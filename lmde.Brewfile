@@ -2,13 +2,13 @@
 # Lista de pacotes recomendados a serem instalados via Homebrew no LMDE (Cinnamon)                    #
 #                                                                                                     #
 # INFORMAÇÕES:                                                                                        #
+# - Preliminarmente, instale o Homebrew conforme o seguinte link: https://brew.sh/                    #
+# - Em seguida, instale os seguinte pacotes pelo seguinte comando:                                    #
+#   $ sudo apt install distrobox evolution-ews-core fonts-crosextra-carlito git libccid pcscd podman  #
 # - Os aplicativos estão ordenados por categoria e ordem alfabética.                                  #
 # - Certifique-se de excluir ou comentar o que não for necessário.                                    #
 # - Uso: execute $ brew bundle --file [caminho para lmde.Brewfile]                                    #
 # - Documentação: https://docs.brew.sh/Manpage                                                        #
-#                                                                                                     #
-# - Antes de executar o presente arquivo, é necessário instalar pacotes pelo seguinte comando:        #
-#   $ sudo apt install distrobox evolution-ews-core fonts-crosextra-carlito git libccid pcscd podman  #
 #                                                                                                     #
 # NOTA PARA ADVOGADOS:                                                                                #
 # Recomendo também instalar o distrobox-adv-br seguindo as instruções em                              #
