@@ -61,7 +61,7 @@ flatpak "net.cozic.joplin_desktop"                      # Aplicativo de notas e 
 flatpak "org.libreoffice.LibreOffice"                   # Suíte de escritório completa (alternativa ao Microsoft Office)
 
 # Gerenciamento de Mídia Física
-flatpak "io.gitlab.adhami3310.Impression"               # Utilitário para criação de drives USB inicializáveis (flashing ISOs)
+flatpak "io.gitlab.adhami3310.Impression"               # Utilitário para criação de drives USB inicializáveis (gravar ISOs)
 flatpak "org.gnome.Brasero"                             # Aplicativo para gravação de CDs, DVDs e Blu-rays
 
 # Internet e Navegação
