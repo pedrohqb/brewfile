@@ -1,22 +1,24 @@
-################################################################################
-# Lista de pacotes recomendados a serem instalados via Homebrew no Gnome       #
-#                                                                              #
-# RECOMENDAÇÃO:                                                                #
-# Utilize com imagens do Universal Blue com Gnome (Bazzite e Bluefin).         #
-# Downloads em https://universal-blue.org/                                     #
-#                                                                              #
-# INFORMAÇÕES:                                                                 #
-# - Os aplicativos estão ordenados por categoria e ordem alfabética.           #
-# - Certifique-se de excluir ou comentar o que não for necessário.             #
-# - Uso: execute $ brew bundle --file [caminho para gnome.Brewfile]            #
-# - Documentação: https://docs.brew.sh/Manpage                                 #
-#                                                                              #
-# NOTA PARA ADVOGADOS:                                                         #
-# Recomendo também instalar o distrobox-adv-br seguindo as instruções em       #
-# https://github.com/pedrohqb/distrobox-adv-br                                 #
-#                                                                              #
-# Licença: CC0-1.0. Pedro Henrique Quitete Barreto 2026                        #
-################################################################################
+#################################################################################
+# Lista de pacotes recomendados a serem instalados via Homebrew no Gnome        #
+#                                                                               #
+# RECOMENDAÇÃO:                                                                 #
+# Utilize com imagens do Universal Blue com Gnome (Bazzite e Bluefin).          #
+# Downloads em https://universal-blue.org/                                      #
+#                                                                               #
+# INFORMAÇÕES:                                                                  #
+# - Se não utilizar alguma imagem do Universal Blue, instale antes o Homebrew   #
+#   conforme o seguinte link: https://brew.sh/                                  #
+# - Os aplicativos estão ordenados por categoria e ordem alfabética.            #
+# - Certifique-se de excluir ou comentar o que não for necessário.              #
+# - Uso: execute $ brew bundle --file [caminho para gnome.Brewfile]             #
+# - Documentação: https://docs.brew.sh/Manpage                                  #
+#                                                                               #
+# NOTA PARA ADVOGADOS:                                                          #
+# Recomendo também instalar o distrobox-adv-br seguindo as instruções em        #
+# https://github.com/pedrohqb/distrobox-adv-br                                  #
+#                                                                               #
+# Licença: CC0-1.0. Pedro Henrique Quitete Barreto 2026                         #
+#################################################################################
 
 # --- BREW (Ferramentas de Linha de Comando) ---
 
