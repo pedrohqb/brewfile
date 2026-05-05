@@ -61,6 +61,7 @@ flatpak "org.gnome.Shotwell"                            # Organizador e visualiz
 flatpak "com.github.jeromerobert.pdfarranger"           # Utilitário para mesclar, girar e organizar páginas de PDFs
 flatpak "net.cozic.joplin_desktop"                      # Aplicativo de notas e tarefas com suporte a Markdown e sincronização
 flatpak "org.libreoffice.LibreOffice"                   # Suíte de escritório completa (alternativa ao Microsoft Office)
+flatpak "org.onlyoffice.desktopeditors"                 # Suíte de escritório completa (alternativa ao Microsoft Office)
 
 # Gerenciamento de Mídia Física
 flatpak "io.gitlab.adhami3310.Impression"               # Utilitário para criação de drives USB inicializáveis (gravar ISOs)
