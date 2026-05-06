@@ -2,6 +2,8 @@
 # Lista de pacotes recomendados a serem instalados via Homebrew no macOS       #
 #                                                                              #
 # INFORMAÇÕES:                                                                 #
+# - Preliminarmente, instale o Homebrew conforme o seguinte link:              #
+#   https://brew.sh/                                                           #
 # - Os aplicativos estão ordenados por categoria e ordem alfabética.           #
 # - Certifique-se de excluir ou comentar o que não for necessário.             #
 # - Uso: execute $ brew bundle --file [caminho para macos.Brewfile]            #
@@ -47,6 +49,7 @@ cask "pinta"                        # Editor de imagens simples e intuitivo
 cask "joplin"                       # Aplicativo de notas e tarefas com suporte a Markdown e sincronização
 cask "libreoffice"                  # Suíte de escritório completa (alternativa ao Microsoft Office)
 cask "libreoffice-language-pack"    # Suporte a outras línguas no LibreOffice
+cask "onlyoffice"                   # Suíte de escritório completa (alternativa ao Microsoft Office)
 cask "pdfsam-basic"                 # Utilitário para mesclar, girar e organizar páginas de PDFs
 
 # Gerenciamento de Mídia Física
