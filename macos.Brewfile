@@ -2,6 +2,8 @@
 # Lista de pacotes recomendados a serem instalados via Homebrew no macOS       #
 #                                                                              #
 # INFORMAÇÕES:                                                                 #
+# - Preliminarmente, instale o Homebrew conforme o seguinte link:              #
+#   https://brew.sh/                                                           #
 # - Os aplicativos estão ordenados por categoria e ordem alfabética.           #
 # - Certifique-se de excluir ou comentar o que não for necessário.             #
 # - Uso: execute $ brew bundle --file [caminho para macos.Brewfile]            #
