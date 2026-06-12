@@ -13,4 +13,3 @@ Recomendo instalar o distrobox-adv-br seguindo as instruções em https://github
 
 **Listas existentes**:
 - gnome.Brewfile, com aplicativos recomendados para serem utilizados no sistema operacional Linux no ambiente desktop Gnome.
-- macos.Brewfile, com aplicativos recomendados para serem utilizados no sistema operacional macOS.
