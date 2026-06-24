@@ -45,7 +45,7 @@ flatpak "org.kde.kdenlive"                              # Editor de vídeos prof
 flatpak "com.discordapp.Discord"                        # Cliente oficial de comunicação para comunidades e chats
 flatpak "com.github.IsmaelMartinez.teams_for_linux"     # Cliente não-oficial para Microsoft Teams
 flatpak "com.rtosta.zapzap"                             # Cliente desktop para WhatsApp (baseado no WhatsApp Web)
-flatpak "org.kde.kontact"                               # Gerenciador profissional de e-mails, contatos e calendário
+flatpak "org.gnome.Evolution"                           # Gerenciador profissional de e-mails, contatos e calendário
 flatpak "org.signal.Signal"                             # Mensageiro focado em privacidade e segurança de dados
 flatpak "org.telegram.desktop"                          # Cliente oficial de mensagens do Telegram
 flatpak "us.zoom.Zoom"                                  # Cliente para videoconferências e reuniões online
