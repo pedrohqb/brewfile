@@ -12,6 +12,6 @@ Lista de pacotes recomendados a serem instalados via Homebrew no Linux e MacOS
 Recomendo instalar o distrobox-adv-br seguindo as instruções em https://github.com/pedrohqb/distrobox-adv-br
 
 **Listas existentes**:
-- gnome.Brewfile, com aplicativos recomendados para serem utilizados no sistema operacional Linux no ambiente desktop Gnome.
-- lmde.Brewfile, com aplicativos recomendados para serem utilizados no sistema operacional Linux Mint Debian Edition (LMDE) no ambiente desktop Cinnamon.
+- gnome.Brewfile, com aplicativos recomendados para serem utilizados no sistema operacional Linux no ambiente desktop Gnome;
+- plasma.Brewfile, com aplicativos recomendados para serem utilizados no sistema operacional Linux no ambiente desktop KDE Plasma; e
 - macos.Brewfile, com aplicativos recomendados para serem utilizados no sistema operacional macOS.
