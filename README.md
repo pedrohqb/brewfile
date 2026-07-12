@@ -13,6 +13,5 @@ Recomendo instalar o distrobox-adv-br seguindo as instruções em https://github
 
 **Listas existentes**:
 - gnome.Brewfile, com aplicativos recomendados para serem utilizados no sistema operacional Linux no ambiente desktop Gnome;
-- plasma.Brewfile, com aplicativos recomendados para serem utilizados no sistema operacional Linux no ambiente desktop KDE Plasma;
-- lmde.Brewfile, com aplicativos recomendados para serem utilizados no sistema operacional Linux Mint Debian Edition (LMDE) no ambiente desktop Cinnamon; e
+- plasma.Brewfile, com aplicativos recomendados para serem utilizados no sistema operacional Linux no ambiente desktop KDE Plasma; e
 - macos.Brewfile, com aplicativos recomendados para serem utilizados no sistema operacional macOS.
