@@ -37,7 +37,6 @@ brew "tesseract-lang"                                   # Motor de reconheciment
 
 # Áudio e Vídeo
 flatpak "com.obsproject.Studio"                         # Software profissional para gravação de tela e transmissões ao vivo
-flatpak "ink.whis.Whis"                                 # Transcreve áudio por meio de inteligência artificial
 flatpak "org.audacityteam.Audacity"                     # Editor e gravador de áudio multi-pista
 flatpak "org.kde.kdenlive"                              # Editor de vídeos profissional de código aberto
 
@@ -46,7 +45,6 @@ flatpak "com.discordapp.Discord"                        # Cliente oficial de com
 flatpak "com.github.IsmaelMartinez.teams_for_linux"     # Cliente não-oficial para Microsoft Teams
 flatpak "com.rtosta.zapzap"                             # Cliente desktop para WhatsApp (baseado no WhatsApp Web)
 flatpak "org.gnome.Evolution"                           # Gerenciador profissional de e-mails, contatos e calendário
-flatpak "org.signal.Signal"                             # Mensageiro focado em privacidade e segurança de dados
 flatpak "org.telegram.desktop"                          # Cliente oficial de mensagens do Telegram
 flatpak "us.zoom.Zoom"                                  # Cliente para videoconferências e reuniões online
 
@@ -57,12 +55,10 @@ flatpak "org.kde.kolourpaint"                           # Editor de imagens simp
 
 # Escritório e Produtividade
 flatpak "com.github.jeromerobert.pdfarranger"           # Utilitário para mesclar, girar e organizar páginas de PDFs
-flatpak "net.cozic.joplin_desktop"                      # Aplicativo de notas e tarefas com suporte a Markdown e sincronização
 flatpak "org.libreoffice.LibreOffice"                   # Suíte de escritório completa (alternativa ao Microsoft Office)
 flatpak "org.onlyoffice.desktopeditors"                 # Suíte de escritório completa (alternativa ao Microsoft Office)
 
 # Gerenciamento de Mídia Física
-flatpak "org.fedoraproject.MediaWriter"                 # Utilitário para criação de drives USB inicializáveis (gravar ISOs)
 flatpak "org.gnome.Brasero"                             # Aplicativo para gravação de CDs, DVDs e Blu-rays
 
 # Internet e Navegação
@@ -85,7 +81,6 @@ flatpak "org.keepassxc.KeePassXC"                       # Gerenciador de senhas 
 # Sistema e Manutenção
 flatpak "com.github.tchx84.Flatseal"                    # Gerenciador de permissões e configurações para aplicativos Flatpak
 flatpak "io.github.flattool.Warehouse"                  # Gerenciador de Flatpaks (instalação, remoção e limpeza)
-flatpak "io.missioncenter.MissionCenter"                # Monitor de sistema moderno (CPU, GPU, RAM e rede)
 flatpak "it.mijorus.gearlever"                          # Gerenciador de AppImages
 
 # Virtualização e Containers
