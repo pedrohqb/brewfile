@@ -55,7 +55,6 @@ flatpak "org.kde.kolourpaint"                           # Editor de imagens simp
 
 # Escritório e Produtividade
 flatpak "com.github.jeromerobert.pdfarranger"           # Utilitário para mesclar, girar e organizar páginas de PDFs
-flatpak "net.cozic.joplin_desktop"                      # Aplicativo de notas e tarefas com suporte a Markdown e sincronização
 flatpak "org.libreoffice.LibreOffice"                   # Suíte de escritório completa (alternativa ao Microsoft Office)
 flatpak "org.onlyoffice.desktopeditors"                 # Suíte de escritório completa (alternativa ao Microsoft Office)
 
@@ -82,7 +81,6 @@ flatpak "org.keepassxc.KeePassXC"                       # Gerenciador de senhas 
 # Sistema e Manutenção
 flatpak "com.github.tchx84.Flatseal"                    # Gerenciador de permissões e configurações para aplicativos Flatpak
 flatpak "io.github.flattool.Warehouse"                  # Gerenciador de Flatpaks (instalação, remoção e limpeza)
-flatpak "io.missioncenter.MissionCenter"                # Monitor de sistema moderno (CPU, GPU, RAM e rede)
 flatpak "it.mijorus.gearlever"                          # Gerenciador de AppImages
 
 # Virtualização e Containers
