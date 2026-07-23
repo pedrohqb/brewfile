@@ -63,7 +63,6 @@ flatpak "org.gnome.Brasero"                             # Aplicativo para grava�
 
 # Internet e Navegação
 flatpak "com.brave.Browser"                             # Navegador web focado em privacidade e bloqueio de anúncios
-flatpak "com.microsoft.Edge"                            # Navegador da Microsoft baseado em Chromium
 flatpak "org.mozilla.firefox"                           # Navegador web da Mozilla
 flatpak "org.qbittorrent.qBittorrent"                   # Cliente para download e compartilhamento de arquivos via BitTorrent
 
@@ -71,7 +70,6 @@ flatpak "org.qbittorrent.qBittorrent"                   # Cliente para download 
 flatpak "info.bibletime.BibleTime"                      # Software para estudo e leitura das Sagradas Escrituras
 
 # Música e Streaming
-flatpak "app.ytmdesktop.ytmdesktop"                     # Cliente desktop para o YouTube Music
 flatpak "com.spotify.Client"                            # Cliente oficial para streaming de músicas e podcasts no Spotify
 flatpak "de.haeckerfelix.Shortwave"                     # Reprodutor moderno de estações de rádio digitais
 
