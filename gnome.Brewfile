@@ -71,7 +71,6 @@ flatpak "org.qbittorrent.qBittorrent"                   # Cliente para download 
 flatpak "info.bibletime.BibleTime"                      # Software para estudo e leitura das Sagradas Escrituras
 
 # Música e Streaming
-flatpak "app.ytmdesktop.ytmdesktop"                     # Cliente desktop para o YouTube Music
 flatpak "com.spotify.Client"                            # Cliente oficial para streaming de músicas e podcasts no Spotify
 flatpak "de.haeckerfelix.Shortwave"                     # Reprodutor moderno de estações de rádio digitais
 
