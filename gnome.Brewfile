@@ -63,7 +63,6 @@ flatpak "org.gnome.Brasero"                             # Aplicativo para grava�
 
 # Internet e Navegação
 flatpak "com.brave.Browser"                             # Navegador web focado em privacidade e bloqueio de anúncios
-flatpak "com.microsoft.Edge"                            # Navegador da Microsoft baseado em Chromium
 flatpak "org.mozilla.firefox"                           # Navegador web da Mozilla
 flatpak "org.qbittorrent.qBittorrent"                   # Cliente para download e compartilhamento de arquivos via BitTorrent
 
