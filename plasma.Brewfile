@@ -28,7 +28,7 @@ brew "yt-dlp"                                           # Utilitário para downl
 
 # Utilidades e OCR
 cask "claude-code"                                      # Agente de IA da Anthropic que roda no terminal
-brew "codex"                                            # Agente de IA da OpenIA que roda no terminal
+cask "codex"                                            # Agente de IA da OpenIA que roda no terminal
 brew "graphicsmagick"                                   # Ferramenta robusta para processamento e manipulação de imagens
 brew "ocrmypdf"                                         # Adiciona camada de texto pesquisável (OCR) em arquivos PDF
 brew "pdfgrep"                                          # Utilitário para pesquisa ao modo "grep" em pdfs
