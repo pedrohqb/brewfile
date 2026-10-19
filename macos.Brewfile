@@ -12,12 +12,14 @@
 # Licença: CC0-1.0. Pedro Henrique Quitete Barreto 2026                        #
 ################################################################################
 
-# --- BREW (Ferramentas de Linha de Comando) ---
+# --- BREW E CASK (Ferramentas de Linha de Comando) ---
 
 # Redes e Downloads
 brew "yt-dlp"                       # Utilitário para download de vídeos do YouTube e diversas plataformas
 
 # Utilidades e OCR
+cask "claude-code"                  # Agente de IA da Anthropic que roda no terminal
+cask "codex"                        # Agente de IA da OpenIA que roda no terminal
 brew "fastfetch"                    # Exibe informações sobre o sistema de forma visual e rápida
 brew "graphicsmagick"               # Ferramenta robusta para processamento e manipulação de imagens
 brew "ocrmypdf"                     # Adiciona camada de texto pesquisável (OCR) em arquivos PDF
