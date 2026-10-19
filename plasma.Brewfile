@@ -27,6 +27,8 @@ brew "onedrive-cli"                                     # Cliente de linha de co
 brew "yt-dlp"                                           # Utilitário para download de vídeos do YouTube e diversas plataformas
 
 # Utilidades e OCR
+brew "claude"                                           # Agente de IA da Anthropic que roda no terminal
+brew "codex"                                            # Agente de IA da OpenIA que roda no terminal
 brew "graphicsmagick"                                   # Ferramenta robusta para processamento e manipulação de imagens
 brew "ocrmypdf"                                         # Adiciona camada de texto pesquisável (OCR) em arquivos PDF
 brew "pdfgrep"                                          # Utilitário para pesquisa ao modo "grep" em pdfs
