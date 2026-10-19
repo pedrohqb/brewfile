@@ -20,7 +20,7 @@
 # Licença: CC0-1.0. Pedro Henrique Quitete Barreto 2026                         #
 #################################################################################
 
-# --- BREW (Ferramentas de Linha de Comando) ---
+# --- BREW E CASK (Ferramentas de Linha de Comando) ---
 
 # Redes e Downloads
 brew "onedrive-cli"                                     # Cliente de linha de comando para sincronização com Microsoft OneDrive
