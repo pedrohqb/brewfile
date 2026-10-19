@@ -1,90 +1,100 @@
-#################################################################################
-# Lista de pacotes recomendados a serem instalados via Homebrew no KDE Plasma   #
-#                                                                               #
-# RECOMENDAÇÃO:                                                                 #
-# Utilize com imagens do Universal Blue com KDE Plasma (Bazzite e Aurora).      #
-# Downloads em https://universal-blue.org/                                      #
-#                                                                               #
-# INFORMAÇÕES:                                                                  #
-# - Se não utilizar alguma imagem do Universal Blue, instale antes o Homebrew   #
-#   conforme o seguinte link: https://brew.sh/                                  #
-# - Os aplicativos estão ordenados por categoria e ordem alfabética.            #
-# - Certifique-se de excluir ou comentar o que não for necessário.              #
-# - Uso: execute $ brew bundle --file [caminho para plasma.Brewfile]            #
-# - Documentação: https://docs.brew.sh/Manpage                                  #
-#                                                                               #
-# NOTA PARA ADVOGADOS:                                                          #
-# Recomendo também instalar o distrobox-adv-br seguindo as instruções em        #
-# https://github.com/pedrohqb/distrobox-adv-br                                  #
-#                                                                               #
-# Licença: CC0-1.0. Pedro Henrique Quitete Barreto 2026                         #
-#################################################################################
+################################################################################
+# Lista de pacotes recomendados para instalação via Homebrew no KDE Plasma     #
+#                                                                              #
+# RECOMENDAÇÃO:                                                                #
+# Utilize com imagens do Universal Blue com KDE Plasma (Bazzite e Aurora).     #
+# Downloads em https://universal-blue.org/                                     #
+#                                                                              #
+# INFORMAÇÕES:                                                                 #
+# - Se não utilizar imagem do Universal Blue, instale antes o Homebrew         #
+#   conforme https://brew.sh/                                                  #
+# - Os programas estão divididos em linha de comando e gráficos e, dentro      #
+#   de cada parte, por categoria e em ordem alfabética, sem distinção entre    #
+#   brew, cask e flatpak.                                                      #
+# - Exclua ou comente o que não for necessário.                                #
+# - Uso: brew bundle --file [caminho para plasma.Brewfile]                     #
+# - Documentação: https://docs.brew.sh/Brew-Bundle-and-Brewfile                #
+#                                                                              #
+# NOTA PARA ADVOGADOS:                                                         #
+# Recomendo também instalar o distrobox-adv-br seguindo as instruções em       #
+# https://github.com/pedrohqb/distrobox-adv-br                                 #
+#                                                                              #
+# Licença: CC0-1.0. Pedro Henrique Quitete Barreto 2026                        #
+################################################################################
 
-# --- BREW E CASK (Ferramentas de Linha de Comando) ---
+################################################################################
+# PROGRAMAS DE LINHA DE COMANDO                                                #
+################################################################################
 
-# Redes e Downloads
-brew "onedrive-cli"                                     # Cliente de linha de comando para sincronização com Microsoft OneDrive
-brew "yt-dlp"                                           # Utilitário para download de vídeos do YouTube e diversas plataformas
+# Inteligência Artificial
+cask "claude-code"                                      # Claude Code: agente de IA da Anthropic que roda no terminal
+cask "codex"                                            # Codex: agente de IA da OpenAI que roda no terminal
 
-# Utilidades e OCR
-cask "claude-code"                                      # Agente de IA da Anthropic que roda no terminal
-cask "codex"                                            # Agente de IA da OpenIA que roda no terminal
-brew "graphicsmagick"                                   # Ferramenta robusta para processamento e manipulação de imagens
-brew "ocrmypdf"                                         # Adiciona camada de texto pesquisável (OCR) em arquivos PDF
-brew "pdfgrep"                                          # Utilitário para pesquisa ao modo "grep" em pdfs
-brew "rdfind"                                           # Utilitário para detectar arquivos duplicados
-brew "tesseract-lang"                                   # Motor de reconhecimento de texto (suporte de idiomas para o OCR)
+# Internet e Nuvem
+brew "onedrive-cli"                                     # OneDrive Client for Linux: sincroniza pastas com o Microsoft OneDrive (não oficial)
+brew "yt-dlp"                                           # yt-dlp: baixa vídeos e áudios do YouTube e de centenas de outros sites
 
-# --- FLATPAK (Aplicativos Gráficos) ---
+# PDF e OCR
+brew "ocrmypdf"                                         # OCRmyPDF: adiciona camada de texto pesquisável (OCR) a PDFs digitalizados
+brew "pdfgrep"                                          # pdfgrep: pesquisa texto dentro de arquivos PDF, ao estilo do grep
+brew "tesseract-lang"                                   # Tesseract: motor de OCR com todos os idiomas, inclusive português (usado pelo OCRmyPDF)
+
+# Utilitários
+brew "graphicsmagick"                                   # GraphicsMagick: converte, redimensiona e edita imagens em lote
+brew "rdfind"                                           # rdfind: localiza arquivos duplicados e pode removê-los ou trocá-los por links
+
+################################################################################
+# PROGRAMAS GRÁFICOS                                                           #
+################################################################################
 
 # Áudio e Vídeo
-flatpak "com.obsproject.Studio"                         # Software profissional para gravação de tela e transmissões ao vivo
-flatpak "org.audacityteam.Audacity"                     # Editor e gravador de áudio multi-pista
-flatpak "org.kde.kdenlive"                              # Editor de vídeos profissional de código aberto
+flatpak "org.audacityteam.Audacity"                     # Audacity: editor e gravador de áudio multipista
+flatpak "org.kde.kdenlive"                              # Kdenlive: editor de vídeo não linear, livre e de código aberto
+flatpak "com.obsproject.Studio"                         # OBS Studio: gravação de tela e transmissão ao vivo
 
 # Comunicação
-flatpak "com.discordapp.Discord"                        # Cliente oficial de comunicação para comunidades e chats
-flatpak "com.github.IsmaelMartinez.teams_for_linux"     # Cliente não-oficial para Microsoft Teams
-flatpak "com.rtosta.zapzap"                             # Cliente desktop para WhatsApp (baseado no WhatsApp Web)
-flatpak "org.gnome.Evolution"                           # Gerenciador profissional de e-mails, contatos e calendário
-flatpak "org.telegram.desktop"                          # Cliente oficial de mensagens do Telegram
-flatpak "us.zoom.Zoom"                                  # Cliente para videoconferências e reuniões online
+flatpak "com.discordapp.Discord"                        # Discord: chat de voz, vídeo e texto para comunidades
+flatpak "org.gnome.Evolution"                           # Evolution: cliente de e-mail, contatos e calendário
+flatpak "com.github.IsmaelMartinez.teams_for_linux"     # Teams for Linux: cliente não oficial do Microsoft Teams
+flatpak "org.telegram.desktop"                          # Telegram: cliente oficial de mensagens do Telegram
+flatpak "com.rtosta.zapzap"                             # ZapZap: cliente não oficial do WhatsApp (baseado no WhatsApp Web)
+flatpak "us.zoom.Zoom"                                  # Zoom: videoconferências e reuniões online
 
-# Design e Fotografia
-flatpak "org.gimp.GIMP"                                 # Editor de imagens avançado (alternativa ao Adobe Photoshop)
-flatpak "org.kde.digikam"                               # Organizador e visualizador de coleções de fotos
-flatpak "org.kde.kolourpaint"                           # Editor de imagens simples e intuitivo (alternativa ao Paint)
+# Escritório e PDF
+flatpak "org.libreoffice.LibreOffice"                   # LibreOffice: suíte de escritório livre e completa (alternativa ao Microsoft Office)
+flatpak "org.onlyoffice.desktopeditors"                 # ONLYOFFICE: suíte de escritório com alta fidelidade aos formatos do Microsoft Office
+flatpak "com.github.jeromerobert.pdfarranger"           # PDF Arranger: junta, divide, gira, recorta e reordena páginas de PDFs
 
-# Escritório e Produtividade
-flatpak "com.github.jeromerobert.pdfarranger"           # Utilitário para mesclar, girar e organizar páginas de PDFs
-flatpak "org.libreoffice.LibreOffice"                   # Suíte de escritório completa (alternativa ao Microsoft Office)
-flatpak "org.onlyoffice.desktopeditors"                 # Suíte de escritório completa (alternativa ao Microsoft Office)
+# Estudo e Leitura
+flatpak "info.bibletime.BibleTime"                      # BibleTime: estudo da Bíblia com traduções, comentários e dicionários
 
-# Gerenciamento de Mídia Física
-flatpak "org.gnome.Brasero"                             # Aplicativo para gravação de CDs, DVDs e Blu-rays
+# Gravação de Mídias
+flatpak "org.gnome.Brasero"                             # Brasero: grava CDs, DVDs e Blu-rays
 
-# Internet e Navegação
-flatpak "com.brave.Browser"                             # Navegador web focado em privacidade e bloqueio de anúncios
-flatpak "org.mozilla.firefox"                           # Navegador web da Mozilla
-flatpak "org.qbittorrent.qBittorrent"                   # Cliente para download e compartilhamento de arquivos via BitTorrent
+# Imagens e Fotografia
+flatpak "org.kde.digikam"                               # digiKam: organizador e gerenciador profissional de fotos
+flatpak "org.gimp.GIMP"                                 # GIMP: editor de imagens avançado (alternativa ao Adobe Photoshop)
+flatpak "org.kde.kolourpaint"                           # KolourPaint: editor de imagens simples (alternativa ao Paint)
 
-# Leitura e Estudo
-flatpak "info.bibletime.BibleTime"                      # Software para estudo e leitura das Sagradas Escrituras
+# Internet e Nuvem
+flatpak "com.brave.Browser"                             # Brave: navegador focado em privacidade, com bloqueio de anúncios
+flatpak "org.mozilla.firefox"                           # Firefox: navegador livre da Mozilla
+flatpak "org.qbittorrent.qBittorrent"                   # qBittorrent: cliente BitTorrent livre e sem anúncios
 
-# Música e Streaming
-flatpak "com.spotify.Client"                            # Cliente oficial para streaming de músicas e podcasts no Spotify
-flatpak "de.haeckerfelix.Shortwave"                     # Reprodutor moderno de estações de rádio digitais
+# Música e Rádio
+flatpak "de.haeckerfelix.Shortwave"                     # Shortwave: rádio pela internet, com milhares de estações
+flatpak "com.spotify.Client"                            # Spotify: streaming de músicas e podcasts
 
 # Segurança e Senhas
-flatpak "org.keepassxc.KeePassXC"                       # Gerenciador de senhas seguro e offline
+flatpak "org.keepassxc.KeePassXC"                       # KeePassXC: gerenciador de senhas offline e de código aberto
 
 # Sistema e Manutenção
-flatpak "com.github.tchx84.Flatseal"                    # Gerenciador de permissões e configurações para aplicativos Flatpak
-flatpak "io.github.flattool.Warehouse"                  # Gerenciador de Flatpaks (instalação, remoção e limpeza)
-flatpak "it.mijorus.gearlever"                          # Gerenciador de AppImages
+flatpak "com.github.tchx84.Flatseal"                    # Flatseal: ajusta as permissões dos aplicativos Flatpak
+flatpak "it.mijorus.gearlever"                          # Gear Lever: integra e gerencia AppImages no menu de aplicativos
+flatpak "io.github.flattool.Warehouse"                  # Warehouse: gerencia Flatpaks instalados, versões e dados residuais
 
-# Virtualização e Containers
-flatpak "com.usebottles.bottles"                        # Gerenciador de ambientes para rodar softwares Windows (.exe) via Wine
-flatpak "io.github.DenysMb.Kontainer"                   # Interface gráfica para gerenciar containers Distrobox
-flatpak "org.virt_manager.virt-manager"                 # Interface gráfica para gestão de máquinas virtuais
-flatpak "org.virt_manager.virt_manager.Extension.Qemu"  # Suporte de virtualização para o virt-manager
+# Virtualização e Contêineres
+flatpak "com.usebottles.bottles"                        # Bottles: executa programas do Windows (.exe) via Wine
+flatpak "io.github.DenysMb.Kontainer"                   # Kontainer: interface gráfica para gerenciar contêineres do Distrobox
+flatpak "org.virt_manager.virt-manager"                 # virt-manager: interface gráfica para gerenciar máquinas virtuais (QEMU/KVM)
+flatpak "org.virt_manager.virt_manager.Extension.Qemu"  # virt-manager QEMU: extensão que fornece o QEMU ao virt-manager em Flatpak
