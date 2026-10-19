@@ -72,8 +72,8 @@ flatpak "info.bibletime.BibleTime"                      # BibleTime: estudo da B
 flatpak "org.gnome.Brasero"                             # Brasero: grava CDs, DVDs e Blu-rays
 
 # Imagens e Fotografia
-flatpak "com.github.maoschanz.drawing"                  # Drawing: editor de imagens simples (alternativa ao Paint)
 flatpak "org.gimp.GIMP"                                 # GIMP: editor de imagens avançado (alternativa ao Adobe Photoshop)
+flatpak "com.github.PintaProject.Pinta"                 # Pinta: editor de imagens simples (alternativa ao Paint)
 flatpak "org.gnome.Shotwell"                            # Shotwell: organizador e visualizador de fotos
 
 # Internet e Nuvem
