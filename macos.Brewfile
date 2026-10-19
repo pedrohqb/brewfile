@@ -1,77 +1,88 @@
 ################################################################################
-# Lista de pacotes recomendados a serem instalados via Homebrew no macOS       #
+# Lista de pacotes recomendados para instalação via Homebrew no macOS          #
+#                                                                              #
+# RECOMENDAÇÃO:                                                                #
+# Instale antes o Homebrew conforme https://brew.sh/                           #
 #                                                                              #
 # INFORMAÇÕES:                                                                 #
-# - Preliminarmente, instale o Homebrew conforme o seguinte link:              #
-#   https://brew.sh/                                                           #
-# - Os aplicativos estão ordenados por categoria e ordem alfabética.           #
-# - Certifique-se de excluir ou comentar o que não for necessário.             #
-# - Uso: execute $ brew bundle --file [caminho para macos.Brewfile]            #
-# - Documentação: https://docs.brew.sh/Manpage                                 #
+# - Os programas estão divididos em linha de comando e gráficos e, dentro      #
+#   de cada parte, por categoria e em ordem alfabética, sem distinção entre    #
+#   brew, cask e flatpak.                                                      #
+# - Exclua ou comente o que não for necessário.                                #
+# - Uso: brew bundle --file [caminho para macos.Brewfile]                      #
+# - Documentação: https://docs.brew.sh/Brew-Bundle-and-Brewfile                #
 #                                                                              #
 # Licença: CC0-1.0. Pedro Henrique Quitete Barreto 2026                        #
 ################################################################################
 
-# --- BREW E CASK (Ferramentas de Linha de Comando) ---
+################################################################################
+# PROGRAMAS DE LINHA DE COMANDO                                                #
+################################################################################
 
-# Redes e Downloads
-brew "yt-dlp"                       # Utilitário para download de vídeos do YouTube e diversas plataformas
+# Inteligência Artificial
+cask "claude-code"                                      # Claude Code: agente de IA da Anthropic que roda no terminal
+cask "codex"                                            # Codex: agente de IA da OpenAI que roda no terminal
 
-# Utilidades e OCR
-cask "claude-code"                  # Agente de IA da Anthropic que roda no terminal
-cask "codex"                        # Agente de IA da OpenIA que roda no terminal
-brew "fastfetch"                    # Exibe informações sobre o sistema de forma visual e rápida
-brew "graphicsmagick"               # Ferramenta robusta para processamento e manipulação de imagens
-brew "ocrmypdf"                     # Adiciona camada de texto pesquisável (OCR) em arquivos PDF
-brew "pdfgrep"                      # Utilitário para pesquisa ao modo "grep" em pdfs
-brew "rdfind"                       # Utilitário para detectar arquivos duplicados
-brew "tesseract-lang"               # Motor de reconhecimento de texto (suporte de idiomas para o OCR)
+# Internet e Nuvem
+brew "yt-dlp"                                           # yt-dlp: baixa vídeos e áudios do YouTube e de centenas de outros sites
 
-# --- CASK (Aplicativos Gráficos) ---
+# PDF e OCR
+brew "ocrmypdf"                                         # OCRmyPDF: adiciona camada de texto pesquisável (OCR) a PDFs digitalizados
+brew "pdfgrep"                                          # pdfgrep: pesquisa texto dentro de arquivos PDF, ao estilo do grep
+brew "tesseract-lang"                                   # Tesseract: motor de OCR com todos os idiomas, inclusive português (usado pelo OCRmyPDF)
+
+# Utilitários
+brew "fastfetch"                                        # Fastfetch: exibe um resumo do sistema e do hardware no terminal
+brew "graphicsmagick"                                   # GraphicsMagick: converte, redimensiona e edita imagens em lote
+brew "rdfind"                                           # rdfind: localiza arquivos duplicados e pode removê-los ou trocá-los por links
+
+################################################################################
+# PROGRAMAS GRÁFICOS                                                           #
+################################################################################
 
 # Áudio e Vídeo
-cask "audacity"                     # Editor e gravador de áudio multi-pista
-cask "kdenlive"                     # Editor de vídeos profissional de código aberto
-cask "obs"                          # Software profissional para gravação de tela e transmissões ao vivo
+cask "audacity"                                         # Audacity: editor e gravador de áudio multipista
+cask "kdenlive"                                         # Kdenlive: editor de vídeo não linear, livre e de código aberto
+cask "obs"                                              # OBS Studio: gravação de tela e transmissão ao vivo
 
 # Comunicação
-cask "discord"                      # Cliente oficial de comunicação para comunidades e chats
-cask "microsoft-outlook"            # Gerenciador de e-mails, contatos e calendário
-cask "microsoft-teams"              # Cliente oficial da Microsoft para Teams
-cask "signal"                       # Mensageiro focado em privacidade e segurança de dados
-cask "telegram"                     # Cliente oficial de mensagens do Telegram
-cask "whatsapp"                     # Cliente oficial desktop para WhatsApp
-cask "zoom"                         # Cliente para videoconferências e reuniões online
+cask "discord"                                          # Discord: chat de voz, vídeo e texto para comunidades
+cask "microsoft-outlook"                                # Microsoft Outlook: cliente oficial de e-mail, contatos e calendário
+cask "microsoft-teams"                                  # Microsoft Teams: cliente oficial para reuniões e chats do Teams
+cask "signal"                                           # Signal: mensageiro com criptografia de ponta a ponta
+cask "telegram"                                         # Telegram: cliente oficial de mensagens do Telegram
+cask "whatsapp"                                         # WhatsApp: cliente oficial do WhatsApp para desktop
+cask "zoom"                                             # Zoom: videoconferências e reuniões online
 
-# Design e Fotografia
-cask "gimp"                         # Editor de imagens avançado
-cask "pinta"                        # Editor de imagens simples e intuitivo
+# Escritório e PDF
+cask "joplin"                                           # Joplin: notas e tarefas em Markdown, com sincronização
+cask "libreoffice"                                      # LibreOffice: suíte de escritório livre e completa (alternativa ao Microsoft Office)
+cask "libreoffice-language-pack"                        # LibreOffice Language Pack: traduções da interface do LibreOffice, inclusive português
+cask "onlyoffice"                                       # ONLYOFFICE: suíte de escritório com alta fidelidade aos formatos do Microsoft Office
+cask "pdfsam-basic"                                     # PDFsam Basic: junta, divide, gira e extrai páginas de PDFs
 
-# Escritório e Produtividade
-cask "joplin"                       # Aplicativo de notas e tarefas com suporte a Markdown e sincronização
-cask "libreoffice"                  # Suíte de escritório completa (alternativa ao Microsoft Office)
-cask "libreoffice-language-pack"    # Suporte a outras línguas no LibreOffice
-cask "onlyoffice"                   # Suíte de escritório completa (alternativa ao Microsoft Office)
-cask "pdfsam-basic"                 # Utilitário para mesclar, girar e organizar páginas de PDFs
+# Gravação de Mídias
+cask "balenaetcher"                                     # balenaEtcher: grava imagens de sistema em pendrives e cartões SD
 
-# Gerenciamento de Mídia Física
-cask "balenaetcher"                 # Utilitário para criação de drives USB inicializáveis
+# Imagens e Fotografia
+cask "gimp"                                             # GIMP: editor de imagens avançado (alternativa ao Adobe Photoshop)
+cask "pinta"                                            # Pinta: editor de imagens simples (alternativa ao Paint)
 
-# Internet e Navegação
-cask "brave-browser"                # Navegador web focado em privacidade e bloqueio de anúncios
-cask "firefox"                      # Navegador web da Mozilla
-cask "microsoft-edge"               # Navegador da Microsoft baseado em Chromium
-cask "onedrive"                     # Cliente de sincronização de arquivos em nuvem da Microsoft
-cask "qbittorrent"                  # Cliente para download e compartilhamento de arquivos via BitTorrent
+# Internet e Nuvem
+cask "brave-browser"                                    # Brave: navegador focado em privacidade, com bloqueio de anúncios
+cask "firefox"                                          # Firefox: navegador livre da Mozilla
+cask "microsoft-edge"                                   # Microsoft Edge: navegador da Microsoft baseado no Chromium
+cask "onedrive"                                         # OneDrive: cliente oficial de sincronização do Microsoft OneDrive
+cask "qbittorrent"                                      # qBittorrent: cliente BitTorrent livre e sem anúncios
 
-# Música e Streaming
-cask "spotify"                      # Cliente oficial para streaming de músicas e podcasts no Spotify
+# Música e Rádio
+cask "spotify"                                          # Spotify: streaming de músicas e podcasts
 
 # Segurança e Senhas
-cask "keepassxc"                    # Gerenciador de senhas seguro e offline
+cask "keepassxc"                                        # KeePassXC: gerenciador de senhas offline e de código aberto
 
 # Sistema e Manutenção
-cask "stats"                        # Monitor de sistema moderno para a barra de menus
+cask "stats"                                            # Stats: monitor de CPU, memória, rede e bateria na barra de menus
 
-# Virtualização e Containers
-cask "utm"                          # Interface gráfica para gestão de máquinas virtuais via QEMU
+# Virtualização e Contêineres
+cask "utm"                                              # UTM: máquinas virtuais no macOS (QEMU e virtualização da Apple)
