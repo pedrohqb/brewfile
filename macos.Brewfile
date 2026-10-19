@@ -68,6 +68,10 @@ cask "balenaetcher"                                     # balenaEtcher: grava im
 cask "gimp"                                             # GIMP: editor de imagens avançado (alternativa ao Adobe Photoshop)
 cask "pinta"                                            # Pinta: editor de imagens simples (alternativa ao Paint)
 
+# Inteligência Artificial
+cask "chatgpt"                                          # ChatGPT: aplicativo oficial do ChatGPT, assistente de IA da OpenAI
+cask "claude"                                           # Claude: aplicativo oficial do Claude, assistente de IA da Anthropic
+
 # Internet e Nuvem
 cask "brave-browser"                                    # Brave: navegador focado em privacidade, com bloqueio de anúncios
 cask "firefox"                                          # Firefox: navegador livre da Mozilla
