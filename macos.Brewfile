@@ -49,7 +49,6 @@ cask "obs"                                                 # OBS Studio: gravaç
 cask "discord"                                             # Discord: chat de voz, vídeo e texto para comunidades
 cask "microsoft-outlook"                                   # Microsoft Outlook: cliente oficial de e-mail, contatos e calendário
 cask "microsoft-teams"                                     # Microsoft Teams: cliente oficial para reuniões e chats do Teams
-cask "signal"                                              # Signal: mensageiro com criptografia de ponta a ponta
 cask "telegram"                                            # Telegram: cliente oficial de mensagens do Telegram
 cask "whatsapp"                                            # WhatsApp: cliente oficial do WhatsApp para desktop
 cask "zoom"                                                # Zoom: videoconferências e reuniões online
@@ -75,7 +74,6 @@ cask "claude"                                              # Claude: aplicativo 
 # Internet e Nuvem
 cask "brave-browser"                                       # Brave: navegador focado em privacidade, com bloqueio de anúncios
 cask "firefox"                                             # Firefox: navegador livre da Mozilla
-cask "microsoft-edge"                                      # Microsoft Edge: navegador da Microsoft baseado no Chromium
 cask "onedrive"                                            # OneDrive: cliente oficial de sincronização do Microsoft OneDrive
 cask "qbittorrent"                                         # qBittorrent: cliente BitTorrent livre e sem anúncios
 
