@@ -61,6 +61,7 @@ flatpak "com.rtosta.zapzap"                             # ZapZap: cliente não o
 flatpak "us.zoom.Zoom"                                  # Zoom: videoconferências e reuniões online
 
 # Escritório e PDF
+flatpak "net.cozic.joplin_desktop"                      # Joplin: notas e tarefas em Markdown, com sincronização
 flatpak "org.libreoffice.LibreOffice"                   # LibreOffice: suíte de escritório livre e completa (alternativa ao Microsoft Office)
 flatpak "org.onlyoffice.desktopeditors"                 # ONLYOFFICE: suíte de escritório com alta fidelidade aos formatos do Microsoft Office
 flatpak "com.github.jeromerobert.pdfarranger"           # PDF Arranger: junta, divide, gira, recorta e reordena páginas de PDFs
@@ -92,6 +93,7 @@ flatpak "org.keepassxc.KeePassXC"                       # KeePassXC: gerenciador
 flatpak "com.mattjakeman.ExtensionManager"              # Extension Manager: instala e gerencia extensões do GNOME Shell
 flatpak "com.github.tchx84.Flatseal"                    # Flatseal: ajusta as permissões dos aplicativos Flatpak
 flatpak "it.mijorus.gearlever"                          # Gear Lever: integra e gerencia AppImages no menu de aplicativos
+flatpak "io.missioncenter.MissionCenter"                # Mission Center: monitor de CPU, memória, disco, rede, GPU e processos
 flatpak "io.github.flattool.Warehouse"                  # Warehouse: gerencia Flatpaks instalados, versões e dados residuais
 
 # Virtualização e Contêineres
