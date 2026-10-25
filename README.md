@@ -14,5 +14,6 @@ Recomendo instalar o distrobox-adv-br seguindo as instruções em https://github
 
 **Listas existentes**:
 - `gnome.Brewfile`, com aplicativos recomendados para o Linux no ambiente desktop GNOME (Bazzite e Bluefin);
-- `plasma.Brewfile`, com aplicativos recomendados para o Linux no ambiente desktop KDE Plasma (Bazzite e Aurora); e
-- `macos.Brewfile`, com aplicativos recomendados para o macOS.
+- `plasma.Brewfile`, com aplicativos recomendados para o Linux no ambiente desktop KDE Plasma (Bazzite e Aurora);
+- `macos.Brewfile`, com aplicativos recomendados para o macOS; e
+- `jogos.Brewfile`, com jogos e launchers recomendados para o Linux, todos em Flatpak.
