@@ -11,6 +11,11 @@
 # - Os programas estão divididos em linha de comando e gráficos e, dentro      #
 #   de cada parte, por categoria e em ordem alfabética, sem distinção entre    #
 #   brew, cask e flatpak.                                                      #
+# - Claude e ChatGPT vêm do FlatPark (https://flatpark.org/), não do           #
+#   Flathub. Como o brew bundle instala Flatpaks no sistema (--system),        #
+#   adicione antes o repositório do FlatPark em modo systemwide:               #
+#   flatpak remote-add --if-not-exists flatpark \                              #
+#     https://dl.flatpark.org/flatpark.flatpakrepo                             #
 # - Exclua ou comente o que não for necessário.                                #
 # - Uso: brew bundle --file [caminho para plasma.Brewfile]                     #
 # - Documentação: https://docs.brew.sh/Brew-Bundle-and-Brewfile                #
@@ -76,6 +81,10 @@ flatpak "org.gnome.Brasero"                             # Brasero: grava CDs, DV
 flatpak "org.kde.digikam"                               # digiKam: organizador e gerenciador profissional de fotos
 flatpak "org.gimp.GIMP"                                 # GIMP: editor de imagens avançado (alternativa ao Adobe Photoshop)
 flatpak "org.kde.kolourpaint"                           # KolourPaint: editor de imagens simples (alternativa ao Paint)
+
+# Inteligência Artificial
+flatpak "com.openai.ChatGPT", remote: "flatpark"        # ChatGPT: aplicativo do ChatGPT e do Codex, da OpenAI (pacote comunitário do FlatPark)
+flatpak "com.anthropic.ClaudeDesktop", remote: "flatpark" # Claude: aplicativo do Claude, assistente de IA da Anthropic (pacote comunitário do FlatPark)
 
 # Internet e Nuvem
 flatpak "com.brave.Browser"                             # Brave: navegador focado em privacidade, com bloqueio de anúncios
