@@ -13,9 +13,6 @@ Lista de pacotes recomendados a serem instalados via Homebrew no Linux e no macO
 - Uso: `brew bundle --file [caminho para o Brewfile]`
 - Documentação: https://docs.brew.sh/Brew-Bundle-and-Brewfile
 
-**Nota para advogados usuários de Linux**:
-Recomendo instalar o distrobox-adv-br seguindo as instruções em https://github.com/pedrohqb/distrobox-adv-br
-
 **Listas existentes**:
 - `gnome.Brewfile`, com aplicativos recomendados para o Linux no ambiente desktop GNOME (Bazzite e Bluefin);
 - `plasma.Brewfile`, com aplicativos recomendados para o Linux no ambiente desktop KDE Plasma (Bazzite e Aurora);
