@@ -11,8 +11,8 @@
 # - Os programas estão divididos em linha de comando e gráficos e, dentro      #
 #   de cada parte, por categoria e em ordem alfabética, sem distinção entre    #
 #   brew, cask e flatpak.                                                      #
-# - Claude e ChatGPT vêm do FlatPark (https://flatpark.org/), não do           #
-#   Flathub. Como o brew bundle instala Flatpaks no sistema (--system),        #
+# - Claude, ChatGPT e Tessera vêm do FlatPark (https://flatpark.org/), não     #
+#   do Flathub. Como o brew bundle instala Flatpaks no sistema (--system),     #
 #   adicione antes o repositório do FlatPark em modo systemwide:               #
 #   flatpak remote-add --if-not-exists flatpark \                              #
 #     https://dl.flatpark.org/flatpark.flatpakrepo                             #
@@ -97,6 +97,7 @@ flatpak "com.spotify.Client"                               # Spotify: streaming 
 
 # Segurança e Senhas
 flatpak "org.keepassxc.KeePassXC"                          # KeePassXC: gerenciador de senhas offline e de código aberto
+flatpak "io.github.pedrohqb.Tessera", remote: "flatpark"   # Tessera: central de tokens e certificados digitais (SafeSign, SafeNet, SerproID) para os aplicativos em Flatpak (FlatPark)
 
 # Sistema e Manutenção
 flatpak "com.mattjakeman.ExtensionManager"                 # Extension Manager: instala e gerencia extensões do GNOME Shell

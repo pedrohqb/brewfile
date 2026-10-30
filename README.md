@@ -5,7 +5,7 @@ Lista de pacotes recomendados a serem instalados via Homebrew no Linux e no macO
 - Se não utilizar alguma imagem do [Universal Blue](https://universal-blue.org/), instale antes o [Homebrew](https://brew.sh/).
 - Os programas estão divididos em **programas de linha de comando** e **programas gráficos** e, dentro de cada parte, por categoria e em ordem alfabética, sem distinção entre `brew`, `cask` e `flatpak`.
 - Cada linha traz, em comentário, o nome do programa e uma breve descrição.
-- Nos Brewfiles do GNOME e do KDE Plasma, Claude e ChatGPT vêm do [FlatPark](https://flatpark.org/), e não do Flathub. Como o `brew bundle` instala os Flatpaks no sistema (`--system`), adicione antes o repositório do FlatPark em modo systemwide:
+- Nos Brewfiles do GNOME e do KDE Plasma, Claude, ChatGPT e Tessera vêm do [FlatPark](https://flatpark.org/), e não do Flathub. Como o `brew bundle` instala os Flatpaks no sistema (`--system`), adicione antes o repositório do FlatPark em modo systemwide:
   ```sh
   flatpak remote-add --if-not-exists flatpark https://dl.flatpark.org/flatpark.flatpakrepo
   ```
