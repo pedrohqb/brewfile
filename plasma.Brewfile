@@ -89,6 +89,7 @@ flatpak "com.anthropic.ClaudeDesktop", remote: "flatpark"  # Claude: aplicativo 
 # Internet e Nuvem
 flatpak "com.brave.Browser"                                # Brave: navegador focado em privacidade, com bloqueio de anúncios
 flatpak "org.mozilla.firefox"                              # Firefox: navegador livre da Mozilla
+flatpak "org.kde.krdc"                                     # KRDC: cliente de área de trabalho remota (RDP e VNC) do KDE
 flatpak "org.qbittorrent.qBittorrent"                      # qBittorrent: cliente BitTorrent livre e sem anúncios
 
 # Música e Rádio

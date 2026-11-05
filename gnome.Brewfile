@@ -88,6 +88,7 @@ flatpak "com.anthropic.ClaudeDesktop", remote: "flatpark"  # Claude: aplicativo 
 
 # Internet e Nuvem
 flatpak "com.brave.Browser"                                # Brave: navegador focado em privacidade, com bloqueio de anúncios
+flatpak "org.gnome.Connections"                            # Connections: cliente de área de trabalho remota (RDP e VNC) do GNOME
 flatpak "org.mozilla.firefox"                              # Firefox: navegador livre da Mozilla
 flatpak "org.qbittorrent.qBittorrent"                      # qBittorrent: cliente BitTorrent livre e sem anúncios
 
