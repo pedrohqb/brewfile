@@ -19,6 +19,10 @@
 # PROGRAMAS DE LINHA DE COMANDO                                                #
 ################################################################################
 
+# Desenvolvimento
+brew "gh"                                                  # GitHub CLI: gerencia repositórios, issues, pull requests e releases do GitHub pelo terminal
+brew "node"                                                # Node.js: executa JavaScript fora do navegador; inclui o npm, gerenciador de pacotes JavaScript
+
 # Inteligência Artificial
 cask "claude-code"                                         # Claude Code: agente de IA da Anthropic que roda no terminal
 cask "codex"                                               # Codex: agente de IA da OpenAI que roda no terminal
@@ -54,6 +58,9 @@ cask "telegram"                                            # Telegram: cliente o
 cask "whatsapp"                                            # WhatsApp: cliente oficial do WhatsApp para desktop
 cask "zoom"                                                # Zoom: videoconferências e reuniões online
 
+# Desenvolvimento
+cask "meld"                                                # Meld: compara e mescla arquivos e pastas lado a lado
+
 # Escritório e PDF
 cask "joplin"                                              # Joplin: notas e tarefas em Markdown, com sincronização
 cask "libreoffice"                                         # LibreOffice: suíte de escritório livre e completa (alternativa ao Microsoft Office)
@@ -77,6 +84,7 @@ cask "brave-browser"                                       # Brave: navegador fo
 cask "firefox"                                             # Firefox: navegador livre da Mozilla
 cask "onedrive"                                            # OneDrive: cliente oficial de sincronização do Microsoft OneDrive
 cask "qbittorrent"                                         # qBittorrent: cliente BitTorrent livre e sem anúncios
+cask "windows-app"                                         # Windows App: cliente de área de trabalho remota (RDP) da Microsoft
 
 # Música e Rádio
 cask "spotify"                                             # Spotify: streaming de músicas e podcasts
