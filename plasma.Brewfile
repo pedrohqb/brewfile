@@ -66,6 +66,9 @@ flatpak "org.telegram.desktop"                             # Telegram: cliente o
 flatpak "com.rtosta.zapzap"                                # ZapZap: cliente não oficial do WhatsApp (baseado no WhatsApp Web)
 flatpak "us.zoom.Zoom"                                     # Zoom: videoconferências e reuniões online
 
+# Desenvolvimento
+flatpak "org.gnome.meld"                                   # Meld: compara e mescla arquivos e pastas lado a lado
+
 # Escritório e PDF
 flatpak "net.cozic.joplin_desktop"                         # Joplin: notas e tarefas em Markdown, com sincronização
 flatpak "org.libreoffice.LibreOffice"                      # LibreOffice: suíte de escritório livre e completa (alternativa ao Microsoft Office)
