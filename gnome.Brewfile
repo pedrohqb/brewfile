@@ -30,6 +30,7 @@
 
 # Desenvolvimento
 brew "gh"                                                  # GitHub CLI: gerencia repositórios, issues, pull requests e releases do GitHub pelo terminal
+brew "node"                                                # Node.js: executa JavaScript fora do navegador; inclui o npm, gerenciador de pacotes JavaScript
 
 # Inteligência Artificial
 cask "claude-code"                                         # Claude Code: agente de IA da Anthropic que roda no terminal
