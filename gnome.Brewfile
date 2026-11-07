@@ -11,7 +11,7 @@
 # - Os programas estão divididos em linha de comando e gráficos e, dentro      #
 #   de cada parte, por categoria e em ordem alfabética, sem distinção entre    #
 #   brew, cask e flatpak.                                                      #
-# - Claude, ChatGPT, PJeOffice Pro e Tessera vêm do FlatPark                   #
+# - Claude, ChatGPT, PDFsam Basic, PJeOffice Pro e Tessera vêm do FlatPark     #
 #   (https://flatpark.org/), não do Flathub. Como o brew bundle instala        #
 #   Flatpaks no sistema (--system), adicione antes o repositório do            #
 #   FlatPark em modo systemwide:                                               #
@@ -75,6 +75,7 @@ flatpak "net.cozic.joplin_desktop"                         # Joplin: notas e tar
 flatpak "org.libreoffice.LibreOffice"                      # LibreOffice: suíte de escritório livre e completa (alternativa ao Microsoft Office)
 flatpak "org.onlyoffice.desktopeditors"                    # ONLYOFFICE: suíte de escritório com alta fidelidade aos formatos do Microsoft Office
 flatpak "com.github.jeromerobert.pdfarranger"              # PDF Arranger: junta, divide, gira, recorta e reordena páginas de PDFs
+flatpak "org.pdfsam.basic", remote: "flatpark"             # PDFsam Basic: divide, junta, gira, mistura e extrai páginas de PDFs (pacote comunitário do FlatPark)
 
 # Estudo e Leitura
 flatpak "info.bibletime.BibleTime"                         # BibleTime: estudo da Bíblia com traduções, comentários e dicionários
