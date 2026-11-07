@@ -83,7 +83,6 @@ cask "claude"                                              # Claude: aplicativo 
 cask "brave-browser"                                       # Brave: navegador focado em privacidade, com bloqueio de anúncios
 cask "firefox"                                             # Firefox: navegador livre da Mozilla
 cask "onedrive"                                            # OneDrive: cliente oficial de sincronização do Microsoft OneDrive
-cask "qbittorrent"                                         # qBittorrent: cliente BitTorrent livre e sem anúncios
 cask "windows-app"                                         # Windows App: cliente de área de trabalho remota (RDP) da Microsoft
 
 # Música e Rádio
