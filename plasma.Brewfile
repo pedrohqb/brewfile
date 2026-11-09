@@ -107,7 +107,6 @@ flatpak "com.spotify.Client"                               # Spotify: streaming 
 flatpak "org.keepassxc.KeePassXC"                          # KeePassXC: gerenciador de senhas offline e de código aberto
 flatpak "br.jus.cnj.PJeOfficePro", remote: "flatpark"      # PJeOffice Pro: assinador digital do CNJ para o PJe e outros sistemas judiciais (pacote comunitário do FlatPark)
 flatpak "io.github.pedrohqb.Tessera", remote: "flatpark"   # Tessera: central de tokens e certificados digitais para os aplicativos em Flatpak, com o OpenSC embutido (FlatPark)
-flatpak "io.github.pedrohqb.Tessera.Driver.SafeNet", remote: "flatpark"   # Tessera, driver SafeNet: tokens SafeNet eToken e cartões IDPrime (FlatPark; instale só o driver do seu token)
 flatpak "io.github.pedrohqb.Tessera.Driver.SafeSign", remote: "flatpark"  # Tessera, driver SafeSign: tokens GD Burti e outros StarSign (FlatPark; instale só o driver do seu token)
 flatpak "io.github.pedrohqb.Tessera.Driver.SerproID", remote: "flatpark"  # Tessera, driver SerproID: certificado em nuvem do Serpro (FlatPark; instale só o driver do seu token)
 
