@@ -11,8 +11,8 @@
 # - Os programas estão divididos em linha de comando e gráficos e, dentro      #
 #   de cada parte, por categoria e em ordem alfabética, sem distinção entre    #
 #   brew, cask e flatpak.                                                      #
-# - Claude, ChatGPT, PDFsam Basic, PJeOffice Pro, Tessera e os drivers do      #
-#   Tessera vêm do FlatPark                                                    #
+# - Claude, ChatGPT, PDFsam Basic, PJeOffice Pro, Tessera, seus drivers e      #
+#   seus assinadores web vêm do FlatPark                                       #
 #   (https://flatpark.org/), não do Flathub. Como o brew bundle instala        #
 #   Flatpaks no sistema (--system), adicione antes o repositório do            #
 #   FlatPark em modo systemwide:                                               #
@@ -110,6 +110,9 @@ flatpak "io.github.pedrohqb.Tessera", remote: "flatpark"   # Tessera: central de
 flatpak "io.github.pedrohqb.Tessera.Driver.SafeNet", remote: "flatpark"   # Tessera, driver SafeNet: tokens SafeNet eToken e cartões IDPrime (FlatPark; instale só o driver do seu token)
 flatpak "io.github.pedrohqb.Tessera.Driver.SafeSign", remote: "flatpark"  # Tessera, driver SafeSign: tokens GD Burti e outros StarSign (FlatPark; instale só o driver do seu token)
 flatpak "io.github.pedrohqb.Tessera.Driver.SerproID", remote: "flatpark"  # Tessera, driver SerproID: certificado em nuvem do Serpro (FlatPark; instale só o driver do seu token)
+flatpak "io.github.pedrohqb.Tessera.Signer.WebPKI", remote: "flatpark"   # Tessera, assinador Lacuna Web PKI para os navegadores em Flatpak (FlatPark; depois, o comando de cada navegador na janela do Tessera)
+flatpak "io.github.pedrohqb.Tessera.Signer.SoftplanWebSigner", remote: "flatpark"   # Tessera, assinador Softplan WebSigner (e-SAJ) para os navegadores em Flatpak (FlatPark)
+flatpak "io.github.pedrohqb.Tessera.Signer.CertisignWebSigner", remote: "flatpark"  # Tessera, assinador Certisign WebSigner para os navegadores em Flatpak (FlatPark)
 
 # Sistema e Manutenção
 flatpak "com.mattjakeman.ExtensionManager"                 # Extension Manager: instala e gerencia extensões do GNOME Shell
