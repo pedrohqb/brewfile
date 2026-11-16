@@ -117,6 +117,7 @@ flatpak "io.github.pedrohqb.Tessera.Signer.CertisignWebSigner", remote: "flatpar
 # Sistema e Manutenção
 flatpak "com.github.tchx84.Flatseal"                       # Flatseal: ajusta as permissões dos aplicativos Flatpak
 flatpak "it.mijorus.gearlever"                             # Gear Lever: integra e gerencia AppImages no menu de aplicativos
+flatpak "io.github.jonmagon.kdiskmark"                     # KDiskMark: mede a velocidade de leitura e gravação de HDs e SSDs
 flatpak "io.missioncenter.MissionCenter"                   # Mission Center: monitor de CPU, memória, disco, rede, GPU e processos
 flatpak "io.github.flattool.Warehouse"                     # Warehouse: gerencia Flatpaks instalados, versões e dados residuais
 
