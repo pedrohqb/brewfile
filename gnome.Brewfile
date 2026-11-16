@@ -50,6 +50,7 @@ brew "tesseract-lang"                                      # Tesseract: motor de
 brew "graphicsmagick"                                      # GraphicsMagick: converte, redimensiona e edita imagens em lote
 brew "rdfind"                                              # rdfind: localiza arquivos duplicados e pode removê-los ou trocá-los por links
 brew "ripgrep"                                             # ripgrep: procura texto dentro de arquivos em pastas inteiras, bem mais rápido que o grep
+brew "sysbench"                                            # sysbench: testa o desempenho de CPU, memória e disco pelo terminal
 
 ################################################################################
 # PROGRAMAS GRÁFICOS                                                           #
