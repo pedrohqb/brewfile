@@ -24,6 +24,7 @@ brew "gh"                                                  # GitHub CLI: gerenci
 brew "node"                                                # Node.js: executa JavaScript fora do navegador; inclui o npm, gerenciador de pacotes JavaScript
 
 # Inteligência Artificial
+cask "antigravity-cli"                                     # Antigravity CLI: agente de IA do Google que roda no terminal (comando agy)
 cask "claude-code"                                         # Claude Code: agente de IA da Anthropic que roda no terminal
 cask "codex"                                               # Codex: agente de IA da OpenAI que roda no terminal
 
