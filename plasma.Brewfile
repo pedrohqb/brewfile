@@ -11,8 +11,8 @@
 # - Os programas estão divididos em linha de comando e gráficos e, dentro      #
 #   de cada parte, por categoria e em ordem alfabética, sem distinção entre    #
 #   brew, cask e flatpak.                                                      #
-# - Claude, ChatGPT, PDFsam Basic, PJeOffice Pro, Tessera, seus drivers e      #
-#   seus assinadores web vêm do FlatPark                                       #
+# - Antigravity, Claude, ChatGPT, PDFsam Basic, PJeOffice Pro, Tessera, seus   #
+#   drivers e seus assinadores web vêm do FlatPark                             #
 #   (https://flatpark.org/), não do Flathub. Como o brew bundle instala        #
 #   Flatpaks no sistema (--system), adicione antes o repositório do            #
 #   FlatPark em modo systemwide:                                               #
@@ -34,6 +34,7 @@ brew "gh"                                                  # GitHub CLI: gerenci
 brew "node"                                                # Node.js: executa JavaScript fora do navegador; inclui o npm, gerenciador de pacotes JavaScript
 
 # Inteligência Artificial
+cask "antigravity-cli"                                     # Antigravity CLI: agente de IA do Google que roda no terminal (comando agy)
 cask "claude-code"                                         # Claude Code: agente de IA da Anthropic que roda no terminal
 cask "codex"                                               # Codex: agente de IA da OpenAI que roda no terminal
 
@@ -91,6 +92,7 @@ flatpak "org.gimp.GIMP"                                    # GIMP: editor de ima
 flatpak "org.kde.kolourpaint"                              # KolourPaint: editor de imagens simples (alternativa ao Paint)
 
 # Inteligência Artificial
+flatpak "com.google.Antigravity", remote: "flatpark"       # Antigravity: central de agentes de IA do Google (pacote comunitário do FlatPark)
 flatpak "com.openai.ChatGPT", remote: "flatpark"           # ChatGPT: aplicativo do ChatGPT e do Codex, da OpenAI (pacote comunitário do FlatPark)
 flatpak "com.anthropic.ClaudeDesktop", remote: "flatpark"  # Claude: aplicativo do Claude, assistente de IA da Anthropic (pacote comunitário do FlatPark)
 
