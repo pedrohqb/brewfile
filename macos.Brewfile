@@ -78,6 +78,7 @@ cask "gimp"                                                # GIMP: editor de ima
 cask "pinta"                                               # Pinta: editor de imagens simples (alternativa ao Paint)
 
 # Inteligência Artificial
+cask "antigravity"                                         # Antigravity: aplicativo oficial do Antigravity, central de agentes de IA do Google
 cask "chatgpt"                                             # ChatGPT: aplicativo oficial do ChatGPT, assistente de IA da OpenAI
 cask "claude"                                              # Claude: aplicativo oficial do Claude, assistente de IA da Anthropic
 
